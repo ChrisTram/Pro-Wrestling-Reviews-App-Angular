@@ -1,0 +1,24 @@
+<h1 class='center'>Matchs</h1>
+<div class='container'>
+  <div class="row">
+
+    <wrestling-search></wrestling-search>
+
+    <div *ngFor='let match of matchs' class="col s6 m4">
+      <div class="card horizontal" (click)="selectMatch(match)" pkmnBorderCard>
+        <div class="card-image">
+          <img [src]="match.picture">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>{{ match.name }}</p>
+            <p>
+              <small>{{ match.created | date:"dd/MM/yyyy" }}</small>
+            </p>
+            <!--<span *ngFor='let type of match.types' class='{{ type | matchTypeColor }}'>{{type}}</span>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
