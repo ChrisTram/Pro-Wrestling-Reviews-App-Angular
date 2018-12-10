@@ -1,21 +1,21 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { ListMatchComponent }    from './list-match.component';
-//import { DetailMatchComponent }  from './detail-match.component';
-//import { EditMatchComponent } from './edit-match.component';
+import { ListReviewComponent }    from './list-review.component';
+//import { DetailReviewComponent }  from './detail-review.component';
+//import { EditReviewComponent } from './edit-review.component';
 
 import { AuthGuard } from '../auth-guard.service';
 
 // les routes du module Wrestling
 const wrestlingRoutes: Routes = [
-	{	path: 'wrestling/all', component: ListMatchComponent } ,
-/*	{ 	path: 'match/:id', component: DetailMatchComponent },
+	{	path: 'wrestling/all', component: ListReviewComponent } ,
+/*	{ 	path: 'wrestling/:id', component: DetailReviewComponent },
 	{
-		path: 'match',
+		path: 'wrestling',
 		canActivate: [AuthGuard],
 		children: [
-			{ path: 'edit/:id', component: EditMatchComponent, canActivate: [AuthGuard] },
+			{ path: 'wrestling/:id', component: EditReviewComponent, canActivate: [AuthGuard] },
 
 		]
 	}*/

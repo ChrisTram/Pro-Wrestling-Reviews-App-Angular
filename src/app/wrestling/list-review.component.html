@@ -1,0 +1,24 @@
+<h1 class='center'>Reviews</h1>
+<div class='container'>
+  <div class="row">
+
+    <wrestling-search></wrestling-search>
+
+    <div *ngFor='let review of reviews' class="col s6 m4">
+      <div class="card horizontal" (click)="selectReview(review)" pkmnBorderCard>
+        <div class="card-image">
+          <img [src]="review.picture">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>{{ review.name }}</p>
+            <p>
+              <small>{{ review.created | date:"dd/MM/yyyy" }}</small>
+            </p>
+            <!--<span *ngFor='let type of review.types' class='{{ type | reviewTypeColor }}'>{{type}}</span>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

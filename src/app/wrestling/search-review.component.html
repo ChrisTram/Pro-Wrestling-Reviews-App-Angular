@@ -4,13 +4,13 @@
         <div class="card-content">
           <div class="input-field">
             <input #searchBox (keyup)="search(searchBox.value)"
-              placeholder="Rechercher un match"/>
+              placeholder="Rechercher un review"/>
           </div>
   
           <div class="collection">
-            <a *ngFor="let match of matchs$ | async"
-              (click)="gotoDetail(match)" class="collection-item">
-              {{ match.name }}
+            <a *ngFor="let review of reviews$ | async"
+              (click)="gotoDetail(review)" class="collection-item">
+              {{ review.name }}
             </a>
           </div>
         </div>
