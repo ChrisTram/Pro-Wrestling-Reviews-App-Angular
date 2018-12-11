@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'pkmn-loader',
+  selector: 'wrestling-loader',
   template: `
     <div class="preloader-wrapper big active">
       <div class="spinner-layer spinner-blue">

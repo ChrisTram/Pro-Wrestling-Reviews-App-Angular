@@ -7,6 +7,7 @@ import { ListReviewComponent } from './list-review.component';
 import { BorderCardDirective } from './border-card.directive';
 //import { ReviewTypeColorPipe } from './review-type-color.pipe';
 import { ReviewsService } from './reviews.service';
+import { LoaderComponent } from '../loader.component';
 
 import { FormsModule } from '@angular/forms';
 //import { EditReviewComponent } from './edit-review.component';
@@ -26,6 +27,7 @@ import { ReviewSearchComponent } from './search-review.component';
 //		DetailReviewComponent,
 //  	EditReviewComponent,
 //		ReviewFormComponent,
+		LoaderComponent,
 		ReviewSearchComponent,
 		BorderCardDirective
 //		ReviewTypeColorPipe

@@ -27,7 +27,6 @@ import { PageNotFoundComponent } from './page-not-found.component';
 	],
 	declarations: [
 		AppComponent,
-
 		LoginComponent,
 		PageNotFoundComponent
 	],

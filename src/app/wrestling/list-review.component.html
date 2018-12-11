@@ -1,4 +1,6 @@
 <h1 class='center'>Reviews</h1>
+
+<div *ngIf="reviews"></div>
 <div class='container'>
   <div class="row">
 
@@ -20,5 +22,8 @@
         </div>
       </div>
     </div>
+  </div>  
   </div>
-</div>
+<h4 *ngIf ='!reviews' class='center'>
+  <wrestling-loader></wrestling-loader>
+</h4>>
