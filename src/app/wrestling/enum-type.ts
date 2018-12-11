@@ -1,0 +1,4 @@
+enum TYPELINK {
+    WWE = "",
+    NJPW = ""
+}
