@@ -13,4 +13,10 @@ export const REVIEWS: Review[] = [
 		picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
 		date: new Date()
 	},
+	{
+		id:3,
+		name: "Les 4* 2018",
+		picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+		date: new Date()
+	},
 ];
