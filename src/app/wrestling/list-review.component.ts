@@ -6,7 +6,7 @@ import { ReviewsService } from './reviews.service'
 
 @Component({
   selector: 'list-review',
-  templateUrl: `./app/wrestling/list-review.component.html`,
+  templateUrl: `./list-review.component.html`,
 })
 export class ListReviewComponent {
 

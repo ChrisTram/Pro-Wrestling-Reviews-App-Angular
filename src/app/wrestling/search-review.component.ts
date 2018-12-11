@@ -12,7 +12,7 @@ import { Subject } from 'rxjs';
  
 @Component({
 	selector: 'wrestling-search',
-	templateUrl: './app/wrestling/search-review.component.html'
+	templateUrl: './search-review.component.html'
 })
 export class ReviewSearchComponent implements OnInit {
  
