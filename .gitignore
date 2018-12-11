@@ -3,6 +3,7 @@
 
 #jscompiledfiles
 src/dist
+/dist
 src/app/pokemons
 
 #incaseofWebStorm
