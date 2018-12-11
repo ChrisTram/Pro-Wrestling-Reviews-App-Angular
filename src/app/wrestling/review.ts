@@ -2,7 +2,8 @@ export class Review {
     id: number;
     name: string;
     picture: string;
-    created: Date;
+    date: Date;
+    //year: number;
   }
 
   export class EventReview extends Review {
@@ -10,13 +11,13 @@ export class Review {
     name: string;
     picture: string;
     matchs: MatchReview[];
-    created: Date;
+    date: Date;
   }
 
   export class MatchReview extends Review {
     id: number;
     name: string;
     picture: string;
-    created: Date;
+    date: Date;
     event: EventReview;
   }
