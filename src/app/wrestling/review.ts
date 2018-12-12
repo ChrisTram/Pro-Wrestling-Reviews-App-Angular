@@ -1,8 +1,8 @@
 export class Review {
     id: number;
     name: string;
-    picture: string; //Inutile pour une première version ? -> Peut être récupéré depuis le "type"
     date: Date;
+    driveLink: string;
     year: number; //Utilisé pour le trie mais surtout les reviews qui ne concernent pas un show précis. 
                   //TODO A supprimer et générer auto dans le futur.
     type: string; //Type de review, peut être une fed ou une zone géographique
