@@ -17,9 +17,11 @@
             <p>
               <small>{{ review.date | date:"dd/MM/yyyy" }}</small>
             </p>
+            <div *ngIf="review.driveLink">
             <p>
-              <small>{{ review.driveLink  }}</small>
+              <small> Review sur Google Drive !  </small>
             </p>
+            </div>
             <!--<span *ngFor='let type of review.types' class='{{ type | reviewTypeColor }}'>{{type}}</span>-->
           </div>
         </div>
