@@ -13,7 +13,7 @@ export class ReviewsService {
 
     constructor(private http: HttpClient) { }
 
-    private reviewsUrl = 'api/reviews';
+    private reviewsUrl = '/api/reviews';
 
     private log(log: string) {
       console.info(log);
