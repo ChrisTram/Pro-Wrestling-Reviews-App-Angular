@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-//import { InMemoryDataService } from './in-memory-data.service';
+import { InMemoryDataService } from './in-memory-data.service';
 import { PageNotFoundComponent } from './page-not-found.component';
 
 @NgModule({
@@ -19,7 +19,7 @@ import { PageNotFoundComponent } from './page-not-found.component';
 	  BrowserModule,
 	  HttpClientModule, 
 	  FormsModule,
-//	  HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, { dataEncapsulation: false}),
+	  HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, { dataEncapsulation: false}),
 	  PokemonsModule,
 	  WrestlingModule,
 	  LoginRoutingModule,

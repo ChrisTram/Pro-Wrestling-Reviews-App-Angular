@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "concurrently  \"ng serve -o --proxy-config proxy.config.json\" \"node server.js\"",
+    "start": "ng serve -o",
     "start_rest": "node server.js",
     "build": "ng build",
     "test": "ng test",
