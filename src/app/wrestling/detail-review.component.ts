@@ -19,7 +19,7 @@ export class DetailReviewComponent implements OnInit {
 	ngOnInit(): void {
 
 		let name = this.route.snapshot.paramMap.get('name');
-		this.reviewsService.getReviewByName(name)
+		this.reviewsService.getReviewByName(name.split('_').join(' '))
 		.subscribe(review => this.review = review[0]);
 		
 /*
