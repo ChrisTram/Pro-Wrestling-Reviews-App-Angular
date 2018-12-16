@@ -32,7 +32,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1KoZix0UoTCiLBehLlCgN12cm0-wl3q7ATjTc0ziDO8Q/edit",
-		types: ["NJPW"]
+		types: ["NJPW", "G1"]
 	},
 	{
 		id:5,
@@ -48,7 +48,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1RuTip2OduveqHkmTTGe-pr1sa3hbUYDhdvqDkZcfBRY/edit",
-		types: ["4starslist"],
+		types: ["4starslist", "AJPW", "NOAH", "Dragon Gate", "DDT", "BJW"],
 	},
 	{
 		id:7,
@@ -88,10 +88,10 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1ZjOGVs-pq62lqF-67taJqPyCG152RGPKMqJ7GFE0WXE/edit",
-		types: ["4starslist"],
+		types: ["4starslist", "wXw", "EVOLVE", "GCW", "DEFIANT", "IWA", "ALL IN"],
 	},
 	{
-		id:11,
+		id:12,
 		name: "Bilan mi parcours 2018",
 		date: new Date(),
 		year: null,
