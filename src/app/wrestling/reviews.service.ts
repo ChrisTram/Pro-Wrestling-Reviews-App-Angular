@@ -75,11 +75,12 @@ export class ReviewsService {
         catchError(this.handleError<Review>(`getReview id=${id}`))
       );
     }
+    getReviewByName(name: string): Observable<Review> {
+      const url = `${this.reviewsUrl}/?name=${name}`;
 
-    getReviewByName(term: string): Observable<Review> {
-      return this.http.get<Review>(`${this.reviewsUrl}/?name=${term}`).pipe(
-        tap(_ => this.log(`found review reviewing by name "${term}"`)),
-        catchError(this.handleError<Review>('getReviewByName'))
+      return this.http.get<Review>(url).pipe(
+        tap(_ => this.log(`fetched review name=${name}`)),
+        catchError(this.handleError<Review>(`getReview name=${name}`))
       );
     }
     

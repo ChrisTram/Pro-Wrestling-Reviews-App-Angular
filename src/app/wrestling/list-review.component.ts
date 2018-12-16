@@ -26,7 +26,7 @@ export class ListReviewComponent {
   selectReview(review: Review) {
     console.log("Vous avez cliqué sur " + review.name);
     //let link =['/reviews', {name: review.name.split(' ').join('')}];
-    let link =['/reviews', review.id];
+    let link =['/reviews', review.name];
     this.router.navigate(link);
   }
 

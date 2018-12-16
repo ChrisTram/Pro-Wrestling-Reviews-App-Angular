@@ -10,7 +10,7 @@ import { AuthGuard } from '../auth-guard.service';
 // les routes du module Wrestling
 const wrestlingRoutes: Routes = [
 	{	path: 'reviews/all', component: ListReviewComponent } ,
-	{ 	path: 'reviews/:id', component: DetailReviewComponent },
+	{ 	path: 'reviews/:name', component: DetailReviewComponent },
 /*	{
 		path: 'wrestling',
 		canActivate: [AuthGuard],
