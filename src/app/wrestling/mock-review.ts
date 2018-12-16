@@ -8,7 +8,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1Kcpzcil3QecaY4JGnD8FYBt8OS-qsQfBICFQlgWj-2c/edit?usp=sharings",
-		type: "4starslist"
+		types: ["4starslist", "PWG"],
 	},
 	{
 		id:2,
@@ -16,7 +16,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1310NlpB9UMBDdNG_Bgd_VgP9QHCRpoM9dSynxuPDXAA/edit",
-		type: "NJPW"
+		types: ["NJPW", "BOSJ"],
 	},
 	{
 		id:3,
@@ -24,7 +24,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1WlZ_5zcflboPzuKFzMWMruOetdFdbRRuo6S0Sy4WrAg/edit",
-		type: "NJPW"
+		types: ["NJPW"],
 	},
 	{
 		id:4,
@@ -32,7 +32,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1KoZix0UoTCiLBehLlCgN12cm0-wl3q7ATjTc0ziDO8Q/edit",
-		type: "NJPW"
+		types: ["NJPW"]
 	},
 	{
 		id:5,
@@ -40,7 +40,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1MmrjdV7u3C889Q208JQRAs2KPhG8u1wLEkX2xGdqdZQ/edit",
-		type: "IMPACT"
+		types: ["IMPACT"],
 	},
 	{
 		id:6,
@@ -48,7 +48,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1RuTip2OduveqHkmTTGe-pr1sa3hbUYDhdvqDkZcfBRY/edit",
-		type: "4starslist"
+		types: ["4starslist"],
 	},
 	{
 		id:7,
@@ -56,7 +56,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1xyJzOJQbHiaBjcT3-Q3oOthE5gJuLkmy9dcd25yS3Do/edit",
-		type: "PROGRESS"
+		types: ["PROGRESS"],
 	},
 	{
 		id:8,
@@ -64,7 +64,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1uFLYDA4G-CXz-qjODfCgZ_KE5b8XmUlvI07QhVenKgs/edit",
-		type: "ROH"
+		types: ["PROGRESS"],
 	},
 	{
 		id:9,
@@ -72,7 +72,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1dw0jrt6UCYQcK3qkt88IC7ZCdb_2ajtr-xG0Q8CeFvI/edit",
-		type: "PWG"
+		types: ["PWG"],
 	},
 	{
 		id:10,
@@ -80,7 +80,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/11SAq9SWSwlNvcqWVV0FsnALhHe3fw4xCe4b2YYmRAY4/edit",
-		type: "WWE"
+		types: ["WWE"],
 	},
 	{
 		id:11,
@@ -88,7 +88,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1ZjOGVs-pq62lqF-67taJqPyCG152RGPKMqJ7GFE0WXE/edit",
-		type: "4starslist"
+		types: ["4starslist"],
 	},
 	{
 		id:11,
@@ -96,6 +96,6 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/14KMNmUIqUn0-dsLLB5EcKfumtN-S5ZPgllEBpoggG-s/edit?usp=sharing",
-		type: "4starslist"
+		types: ["4starslist"],
 	},
-];
+]
