@@ -39,16 +39,7 @@ export class ReviewsService {
       );
     }
 
-    searchReview(term: string): Observable<Review[]> {
-      if(!term.trim()) {
-        return of([]);
-      }
-      
-      return this.http.get<Review[]>(`${this.reviewsUrl}/?name=${term}`).pipe(
-        tap(_ => this.log(`found reviews reviewing "${term}"`)),
-        catchError(this.handleError<Review[]>('searchReviews', []))
-      );
-    }
+
 
     deleteReview(review: Review) : Observable<Review> {
       const url = `${this.reviewsUrl}/${review.id}`;
@@ -82,6 +73,24 @@ export class ReviewsService {
       return this.http.get<Review>(url).pipe(
         tap(_ => this.log(`fetched review id=${id}`)),
         catchError(this.handleError<Review>(`getReview id=${id}`))
+      );
+    }
+
+    getReviewByName(term: string): Observable<Review> {
+      return this.http.get<Review>(`${this.reviewsUrl}/?name=${term}`).pipe(
+        tap(_ => this.log(`found review reviewing by name "${term}"`)),
+        catchError(this.handleError<Review>('getReviewByName'))
+      );
+    }
+    
+    searchReview(term: string): Observable<Review[]> {
+      if(!term.trim()) {
+        return of([]);
+      }
+      
+      return this.http.get<Review[]>(`${this.reviewsUrl}/?name=${term}`).pipe(
+        tap(_ => this.log(`found reviews reviewing "${term}"`)),
+        catchError(this.handleError<Review[]>('searchReviews', []))
       );
     }
 }

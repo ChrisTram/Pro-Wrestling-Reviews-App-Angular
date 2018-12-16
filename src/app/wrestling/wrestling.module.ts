@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 import { WrestlingRoutingModule } from './wrestling-routing.module';
 
 import { ListReviewComponent } from './list-review.component';
-//import { DetailReviewComponent } from './detail-review.component';
+import { DetailReviewComponent } from './detail-review.component';
 import { BorderCardDirective } from './border-card.directive';
-//import { ReviewTypeColorPipe } from './review-type-color.pipe';
+import { ReviewTypeColorPipe } from './review-type-color.pipe';
 import { ReviewsService } from './reviews.service';
 import { LoaderComponent } from '../loader.component';
 
@@ -24,13 +24,13 @@ import { ReviewSearchComponent } from './search-review.component';
 	],
 	declarations: [
 		ListReviewComponent,
-//		DetailReviewComponent,
+		DetailReviewComponent,
 //  	EditReviewComponent,
 //		ReviewFormComponent,
 		LoaderComponent,
 		ReviewSearchComponent,
-		BorderCardDirective
-//		ReviewTypeColorPipe
+		BorderCardDirective,
+		ReviewTypeColorPipe
 	],
 	providers: [ReviewsService, AuthGuard]
 })

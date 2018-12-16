@@ -7,7 +7,7 @@
     <wrestling-search></wrestling-search>
 
     <div *ngFor='let review of reviews' class="col s6 m4">
-      <div class="card horizontal" (click)="selectReview(review)" wrestlingBorderCard>
+      <div class="card horizontal pointer" (click)="selectReview(review)" wrestlingBorderCard>
         <div class="card-image">
           <img src="{{'assets/'+ review.types[0] + '.png'}}" alt="image">
         </div>

@@ -64,7 +64,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1uFLYDA4G-CXz-qjODfCgZ_KE5b8XmUlvI07QhVenKgs/edit",
-		types: ["PROGRESS"],
+		types: ["ROH"],
 	},
 	{
 		id:9,
