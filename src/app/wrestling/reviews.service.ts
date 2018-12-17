@@ -94,4 +94,8 @@ export class ReviewsService {
         catchError(this.handleError<Review[]>('searchReviews', []))
       );
     }
+
+    gotoDriveLink(review: Review) {
+      window.open(review.driveLink, "_blank");
+  }
 }

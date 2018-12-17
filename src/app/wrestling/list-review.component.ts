@@ -30,12 +30,10 @@ export class ListReviewComponent {
       this.router.navigate(link);
     }
     else {
-      this.gotoDriveLink(review);
+      this.reviewsService.gotoDriveLink(review);
     }
 
   }
-  gotoDriveLink(review: Review) {
-    window.open(review.driveLink, "_blank");
-}
+
 
 }

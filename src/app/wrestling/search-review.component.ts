@@ -40,7 +40,13 @@ export class ReviewSearchComponent implements OnInit {
 	}
  
 	gotoDetail(review: Review): void {
-		let link = ['/wrestling', review.id];
-		this.router.navigate(link);
+		console.log("Vous avez cliqué sur " + review.name);
+		if (review.driveLink == null) {
+		  let link =['/reviews', review.name.split(' ').join('_')];
+		  this.router.navigate(link);
+		}
+		else {
+		  this.reviewsService.gotoDriveLink(review);
+		}
 	}
 }
