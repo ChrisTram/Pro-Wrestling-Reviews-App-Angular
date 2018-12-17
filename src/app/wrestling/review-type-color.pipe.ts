@@ -14,19 +14,19 @@ export class ReviewTypeColorPipe implements PipeTransform {
         color = '#ff160b';
         break;
       case 'WWE':
-        color = 'blue lighten-1';
+        color = '#90caf9';
         break;
       case 'PWG':
-        color = 'green lighten-1';
+        color = '#cd9a00';
         break;
       case 'ROH':
-        color = 'brown lighten-1';
+        color = '#7D2207';
         break;
       case '4starslist':
         color = 'grey lighten-3';
         break;
       case 'IMPACT':
-        color = 'blue lighten-3';
+        color = '#1b6dc1';
         break;
       case 'Poison':
         color = 'deep-purple accent-1';
@@ -39,13 +39,13 @@ export class ReviewTypeColorPipe implements PipeTransform {
         break;
       case 'NXT':
       case 'NXT UK':
-        color = '#ffffff';
+        color = '#F19507';
         break;
-      case '':
-        color = 'deep-orange';
+      case 'PROGRESS':
+        color = '#f7e900';
         break;
       default:
-        color = 'grey';
+        color = '#e0f2f1';
         break;
     }
 
