@@ -9,7 +9,7 @@
   
           <div class="collection">
             <a *ngFor="let review of reviews$ | async"
-              (click)="gotoDetail(review)" class="collection-item">
+              (click)="gotoDetail(review)" class="collection-item pointer">
               {{ review.name }}
             </a>
           </div>

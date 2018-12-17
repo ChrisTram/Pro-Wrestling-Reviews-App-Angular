@@ -48,7 +48,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1RuTip2OduveqHkmTTGe-pr1sa3hbUYDhdvqDkZcfBRY/edit",
-		types: ["4starslist", "AJPW", "NOAH", "Dragon Gate", "DDT", "BJW"],
+		types: ["JAP", "AJPW", "NOAH", "Dragon Gate", "DDT", "BJW"],
 	},
 	{
 		id:7,
@@ -88,7 +88,7 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1ZjOGVs-pq62lqF-67taJqPyCG152RGPKMqJ7GFE0WXE/edit",
-		types: ["4starslist", "wXw", "EVOLVE", "GCW", "DEFIANT", "IWA", "ALL IN"],
+		types: ["INDE", "wXw", "EVOLVE", "GCW", "DEFIANT", "IWA", "ALL IN"],
 	},
 	{
 		id:12,
@@ -104,6 +104,6 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:null,
-		types: ["4starslist"],
+		types: ["A"],
 	},
 ]

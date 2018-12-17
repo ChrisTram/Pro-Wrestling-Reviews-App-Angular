@@ -11,12 +11,12 @@ import { ReviewsService } from './reviews.service'
 export class ListReviewComponent {
 
   reviews: Review[] = null;
-  sortPropert:string = "name";
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
 
    ngOnInit() : void {
-    this.getReviews(this.sortPropert);
+     
+    this.getReviews(""); //par défaut pas de trie
 
 
   }
@@ -25,6 +25,7 @@ export class ListReviewComponent {
     this.reviewsService.getReviews()
     .subscribe(reviews => this.reviews = reviews.sort(this.reviewsService.dynamicSort(sortProperty)));
     console.log("le tableau trié : ", this.reviews);
+    console.log("la propriété de trie : ", sortProperty);
   }
 
 

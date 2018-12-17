@@ -9,10 +9,11 @@
     <div class="card-action center">
       <p>Trier par :</p>
       <a (click)='getReviews("name")' class="waves-effect waves-light btn">Nom</a>
-      <a (click)='getReviews("type[0]")' class="waves-effect waves-light btn">Type</a>
+      <a (click)='getReviews("types")' class="waves-effect waves-light btn">Type</a>
     </div>
     </div>
     <div *ngFor='let review of reviews' class="col s6 m4">
+      <!--ngIf de vérification du type demandé -->
       <div class="card horizontal pointer" (click)="selectReview(review)" wrestlingBorderCard>
         <div class="card-image">
           <img src="{{'assets/'+ review.types[0] + '.png'}}" alt="image">
