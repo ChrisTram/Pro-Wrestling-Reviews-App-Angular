@@ -6,3 +6,7 @@
 .pointer {
     cursor: pointer;
 }
+
+.center {
+    width: 100%;
+}

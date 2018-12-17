@@ -100,7 +100,7 @@ export const REVIEWS: Review[] = [
 	},
 	{
 		id:12,
-		name: "nulltest",
+		name: "Nulltest",
 		date: new Date(),
 		year: null,
 		driveLink:null,
