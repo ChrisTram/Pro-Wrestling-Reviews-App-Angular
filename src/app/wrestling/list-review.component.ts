@@ -25,10 +25,17 @@ export class ListReviewComponent {
 
   selectReview(review: Review) {
     console.log("Vous avez cliqué sur " + review.name);
-    //let link =['/reviews', {name: review.name.split(' ').join('')}];
-    let link =['/reviews', review.name.split(' ').join('_')];
-    this.router.navigate(link);
-  }
+    if (review.driveLink == null) {
+      let link =['/reviews', review.name.split(' ').join('_')];
+      this.router.navigate(link);
+    }
+    else {
+      this.gotoDriveLink(review);
+    }
 
+  }
+  gotoDriveLink(review: Review) {
+    window.open(review.driveLink, "_blank");
+}
 
 }
