@@ -16,11 +16,14 @@ export class ListReviewComponent {
 
    ngOnInit() : void {
     this.getReviews();
+
+
   }
 
   getReviews() : void {
     this.reviewsService.getReviews()
-    .subscribe(reviews => this.reviews = reviews);
+    .subscribe(reviews => this.reviews = reviews.sort((a,b) => (a.types[0] > b.types[0]) ? 1 : ((b.types[0] > a.types[0]) ? -1 : 0)));
+    console.log("le tableau trié : ", this.reviews);
   }
 
   selectReview(review: Review) {
