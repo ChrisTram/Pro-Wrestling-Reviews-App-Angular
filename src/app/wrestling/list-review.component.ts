@@ -11,20 +11,22 @@ import { ReviewsService } from './reviews.service'
 export class ListReviewComponent {
 
   reviews: Review[] = null;
+  sortPropert:string = "name";
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
 
    ngOnInit() : void {
-    this.getReviews();
+    this.getReviews(this.sortPropert);
 
 
   }
 
-  getReviews() : void {
+  getReviews(sortProperty:string) : void {
     this.reviewsService.getReviews()
-    .subscribe(reviews => this.reviews = reviews.sort((a,b) => (a.types[0] > b.types[0]) ? 1 : ((b.types[0] > a.types[0]) ? -1 : 0)));
+    .subscribe(reviews => this.reviews = reviews.sort(this.reviewsService.dynamicSort(sortProperty)));
     console.log("le tableau trié : ", this.reviews);
   }
+
 
   selectReview(review: Review) {
     console.log("Vous avez cliqué sur " + review.name);

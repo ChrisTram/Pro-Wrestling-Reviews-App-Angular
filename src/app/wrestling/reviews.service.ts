@@ -56,8 +56,8 @@ export class ReviewsService {
     // Retourne tous les reviews
     getReviews(): Observable<Review[]> {
       return this.http.get<Review[]>(this.reviewsUrl).pipe(
-        tap(_ => this.log(`fetched reviews`)),
-        catchError(this.handleError(`getReviews`, []))
+        tap(_ => this.log(`fetched reviews`)), 
+          catchError(this.handleError(`getReviews`, []))
       );
     }
 
@@ -95,7 +95,19 @@ export class ReviewsService {
       );
     }
 
-    gotoDriveLink(review: Review) {
+  gotoDriveLink(review: Review) {
       window.open(review.driveLink, "_blank");
   }
+
+  dynamicSort(property:string) {
+    var sortOrder = 1;
+    if(property[0] === "-") {
+        sortOrder = -1;
+        property = property.substr(1);
+    }
+    return function (a:Review,b:Review) {
+        var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+        return result * sortOrder;
+    }
+}
 }
