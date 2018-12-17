@@ -11,14 +11,13 @@ import { ReviewsService } from './reviews.service'
 export class ListReviewComponent {
 
   reviews: Review[] = null;
+  typesSelect: string[];
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
 
    ngOnInit() : void {
      
-    this.getReviews(""); //par défaut pas de trie
-
-
+    this.getReviews("type"); //par défaut un trie par type
   }
 
   getReviews(sortProperty:string) : void {

@@ -13,22 +13,22 @@ export class ReviewTypeColorPipe implements PipeTransform {
     let color: string;
 
     switch (type) {
-      case 'Feu':
+      case 'NJPW':
         color = 'red lighten-1';
         break;
-      case 'Eau':
+      case 'WWE':
         color = 'blue lighten-1';
         break;
-      case 'Plante':
+      case 'PWG':
         color = 'green lighten-1';
         break;
-      case 'Insecte':
+      case 'ROH':
         color = 'brown lighten-1';
         break;
-      case 'Normal':
+      case '4starslist':
         color = 'grey lighten-3';
         break;
-      case 'Vol':
+      case 'INDE':
         color = 'blue lighten-3';
         break;
       case 'Poison':
