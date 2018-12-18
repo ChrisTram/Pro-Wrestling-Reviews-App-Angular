@@ -26,8 +26,8 @@ export const REVIEWS: Review[] = [
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1Kcpzcil3QecaY4JGnD8FYBt8OS-qsQfBICFQlgWj-2c/edit?usp=sharings",
 		img:"4starslist",
-		type:"4starslist",
-		types: ["4starslist"],
+		type:"Liste 4*+",
+		types: ["Liste 4*+"],
 	},
 
 	{
@@ -37,7 +37,7 @@ export const REVIEWS: Review[] = [
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1WlZ_5zcflboPzuKFzMWMruOetdFdbRRuo6S0Sy4WrAg/edit",
 		img:"NJPW",
-		type:"JAP",
+		type:"NJPW",
 		types: ["NJPW"],
 	},
 	{
@@ -47,7 +47,7 @@ export const REVIEWS: Review[] = [
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1310NlpB9UMBDdNG_Bgd_VgP9QHCRpoM9dSynxuPDXAA/edit",
 		img:"NJPW",
-		type:"JAP",
+		type:"NJPW",
 		types: ["NJPW", "BOSJ"],
 	},
 	{
@@ -57,7 +57,7 @@ export const REVIEWS: Review[] = [
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1KoZix0UoTCiLBehLlCgN12cm0-wl3q7ATjTc0ziDO8Q/edit",
 		img:"NJPW",
-		type:"JAP",
+		type:"NJPW",
 		types: ["NJPW", "G1"]
 	},
 	{
@@ -117,7 +117,7 @@ export const REVIEWS: Review[] = [
 		year: null,
 		driveLink:"https://docs.google.com/document/d/11SAq9SWSwlNvcqWVV0FsnALhHe3fw4xCe4b2YYmRAY4/edit",
 		img:"NXTUK",
-		type:"WWENXTUK",
+		type:"WWE NXT",
 		types: ["WWE", "NXT UK"],
 	},
 	{

@@ -13,6 +13,7 @@ export class ListReviewComponent {
   reviews: Review[] = null;
   typesOptions: string[] = null; 
   typesWhiteList: string[] = ["4starslist"]; //A corriger, doit être pleine au début puis la vider à la première utilisation du form
+  useWhiteList:boolean = false;
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
 
@@ -20,7 +21,7 @@ export class ListReviewComponent {
      
     this.getReviews("type"); //par défaut un trie par type
     this.typesOptions = this.reviewsService.getReviewTypes();
-
+    this.typesWhiteList = this.reviewsService.getReviewTypes();
   }
 
   getReviews(sortProperty:string) : void {
@@ -49,6 +50,10 @@ export class ListReviewComponent {
   }
 
 	selectType($event: any, type: string): void {
+    if(this.useWhiteList === false) {
+      this.typesWhiteList.length = 0;
+      this.useWhiteList=true;
+    }
 		let checked = $event.target.checked;
 		if (checked) {
 			this.typesWhiteList.push(type);
