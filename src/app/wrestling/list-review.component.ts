@@ -11,13 +11,16 @@ import { ReviewsService } from './reviews.service'
 export class ListReviewComponent {
 
   reviews: Review[] = null;
-  typesSelect: string[];
+  types: string[] = null; 
+  typesWhiteList: string[] = ["4starslist"];
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
 
    ngOnInit() : void {
      
     this.getReviews("type"); //par défaut un trie par type
+    this.types = this.reviewsService.getReviewTypes();
+
   }
 
   getReviews(sortProperty:string) : void {
@@ -40,5 +43,28 @@ export class ListReviewComponent {
 
   }
 
+  checkTypes(type:string) : boolean {
+    return this.typesWhiteList.indexOf(type) > -1;
 
+  }
+
+	selectType($event: any, type: string): void {
+		let checked = $event.target.checked;
+		if (checked) {
+			this.typesWhiteList.push(type);
+		} else {
+			let index = this.typesWhiteList.indexOf(type);
+			if (~index) {
+				this.typesWhiteList.splice(index, 1);
+			}
+    }
+    console.log(this.typesWhiteList);
+    this.getReviews("type");
+	}
+/*
+  onSubmit(): void {
+		console.log("Submit form !");
+		this.typesWhiteList.push(option.id);
+	}
+*/
 }

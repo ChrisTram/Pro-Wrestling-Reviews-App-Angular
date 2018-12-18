@@ -61,10 +61,9 @@ export class ReviewsService {
       );
     }
 
-    /*getReviewTypes(): string[] {
-        return ['Plante', 'Feu', 'Eau', 'Insecte', 'Normal', 'Electrik',
-                'Poison', 'Fée', 'Vol'];
-    }*/
+    getReviewTypes(): string[] {
+        return ['WWEPPV', '4starsList', 'JAP'];
+    }
     
     // Retourne le review avec l'identifiant passé en paramètre
     getReview(id: number): Observable<Review> {

@@ -12,8 +12,32 @@
       <a (click)='getReviews("type")' class="waves-effect waves-light btn">Type</a>
     </div>
     </div>
-    <div *ngFor='let review of reviews' class="col s12 m4">
-      <!--ngIf de vérification du type demandé -->
+
+
+      <div class="card-panel">
+      <form class="form-group">
+          <label for="types">Types</label>
+          <p *ngFor="let type of types">
+            <label>
+              <input type="checkbox"
+                class="filled-in"
+                id="{{ type }}"
+                [value]="type"
+                
+                (change)="selectType($event, type)"/>
+              <span [attr.for]="type">
+                <div class="{{ type | reviewTypeColor }}">
+                  {{ type }}
+                </div>
+              </span>
+            </label>
+          </p>
+        </form>
+      </div>
+
+    <!-- Reviews -->  
+    <div *ngFor='let review of reviews; let i = index'>
+      <div *ngIf="checkTypes(review.type)" class="col s12 m4">
       <div class="card horizontal pointer" (click)="selectReview(review)" wrestlingBorderCard>
         <div class="card-image">
           <img src="{{'assets/'+ review.img + '.png'}}" alt="image">
@@ -37,6 +61,7 @@
             <span *ngFor='let type of review.types' class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">{{type}}</span>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </div>  
