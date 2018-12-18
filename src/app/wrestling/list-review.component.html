@@ -16,8 +16,8 @@
 
       <div class="card-panel">
       <form class="form-group">
-          <label for="types">Types</label>
-          <p *ngFor="let type of types">
+          <label for="typesOptions">Types</label>
+          <p *ngFor="let type of typesOptions">
             <label>
               <input type="checkbox"
                 class="filled-in"
@@ -26,7 +26,7 @@
                 
                 (change)="selectType($event, type)"/>
               <span [attr.for]="type">
-                <div class="{{ type | reviewTypeColor }}">
+                <div class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">
                   {{ type }}
                 </div>
               </span>
