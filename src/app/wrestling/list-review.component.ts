@@ -12,7 +12,7 @@ export class ListReviewComponent {
 
   reviews: Review[] = null;
   typesOptions: string[] = null; 
-  typesWhiteList: string[] = ["4starslist"]; //A corriger, doit être pleins au début puis vider à la première utilisation du form
+  typesWhiteList: string[] = ["4starslist"]; //A corriger, doit être pleine au début puis la vider à la première utilisation du form
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
 
