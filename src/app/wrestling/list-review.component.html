@@ -16,12 +16,13 @@
 
       <div class="card-panel">
       <form class="form-group">
-          <label for="typesOptions">Trier</label>
-          <p *ngFor="let type of typesOptions">
+          <!--<label for="typesOptions">Trier</label>-->
+          <span *ngFor="let type of typesOptions">
             <label class="filter-list__itemLabel">
               <input type="checkbox"
                 class="filled-in"
                 [value]="type"
+                style="position: relative"
                 [checked]="isCheck(type)" 
                 (change)="selectType($event, type)"/>
               <span [attr.for]="type">
@@ -30,9 +31,9 @@
                 </div>
               </span>
             </label>
-          </p>
+          </span>
         </form>
-        <a (click)='reset()' class="waves-effect waves-light btn">Reset tri</a>
+        <a (click)='reset()' style="margin-top:2%" class="waves-effect waves-light btn">Annuler tri</a>
       </div>
 
     <!-- Reviews -->  
