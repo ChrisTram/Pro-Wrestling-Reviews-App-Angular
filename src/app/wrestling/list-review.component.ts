@@ -12,19 +12,18 @@ import { bufferToggle } from 'rxjs/operators';
   templateUrl: `./list-review.component.html`,
   animations: [
     trigger('openClose', [
-      // ...
+      /*
       state('open', style({
-        opacity: 1,
         backgroundColor: 'yellow'
       })),
       state('closed', style({
 
-      })),
-      transition('open => closed', [
-        animate('1s')
-      ]),
-      transition('closed => open', [
-        animate('0.5s')
+      })),*/
+      state('in', style({opacity: 1})), //le "resting" state
+
+      transition(':enter', [
+        style({opacity: 0}),
+        animate(600 )
       ]),
     ]),
   ]
@@ -36,7 +35,6 @@ export class ListReviewComponent {
 
   typesWhiteList: string[] = null;
   useWhiteList:boolean = false;
-  isOpen = true;
   activeTypeAnim:string = "";
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
@@ -56,9 +54,6 @@ export class ListReviewComponent {
     console.log("la propriété de trie : ", sortProperty);
   }
 
-  toggle() : void {
-    this.isOpen = !this.isOpen;
-  }
 
   reset() : void {
     this.typesWhiteList = this.reviewsService.getReviewTypes();
@@ -109,8 +104,6 @@ export class ListReviewComponent {
 		if (checked) {
       this.typesWhiteList.push(type);
       this.activeTypeAnim = type;
-
-      //this.toggle();
 		} else {
 			let index = this.typesWhiteList.indexOf(type);
 			if (~index) {
@@ -119,14 +112,12 @@ export class ListReviewComponent {
     }
     console.log(this.typesWhiteList);
   }
-  
+  /*
   checkTypeAnim(type:string): boolean {
-    console.log("le type a animer actuel",this.activeTypeAnim);
+    console.log("le type à animer actuel",this.activeTypeAnim);
     console.log("le type comparé",type);
 
     if (this.activeTypeAnim === type) {return true; } else { return false;}
-      
-    
-  }
+  }*/
 
 }
