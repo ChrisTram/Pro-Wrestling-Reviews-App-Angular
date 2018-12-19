@@ -4,7 +4,10 @@
 <div class='container'>
   <div class="row">
 
+
     <wrestling-search></wrestling-search>
+
+    <!--Sort order filters-->
     <div class="card horizontal">
     <div class="card-action center">
       <p>Trier par :</p>
@@ -13,12 +16,12 @@
     </div>
     </div>
 
-
+      <!--Types filters-->
       <div class="card-panel">
       <form class="form-group">
           <!--<label for="typesOptions">Trier</label>-->
-          <span *ngFor="let type of typesOptions">
-            <label class="filter-list__itemLabel">
+          <span *ngFor="let type of typesOptions" >
+            <label class="filter-list__itemLabel" >
               <input type="checkbox"
                 class="filled-in"
                 [value]="type"
@@ -38,8 +41,8 @@
 
     <!-- Reviews -->  
     <div *ngFor='let review of reviews; let i = index'>
-      <div *ngIf="checkTypes(review.type)" class="col s12 m4">
-      <div class="card horizontal pointer" (click)="selectReview(review)" wrestlingBorderCard>
+      <div *ngIf="checkTypes(review.type)"  class="col s12 m4">
+      <div class="card horizontal pointers" [@openClose]="checkTypeAnim(review.type) ? 'open' : 'closed'" (click)="selectReview(review)" wrestlingBorderCard>
         <div class="card-image">
           <img src="{{'assets/'+ review.img + '.png'}}" alt="image">
         </div>

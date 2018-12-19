@@ -2,19 +2,42 @@ import { Component } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { Review } from './review';
 import { Router } from '@angular/router';
-import { ReviewsService } from './reviews.service'
+import { ReviewsService } from './reviews.service';
+import { animation, animate, trigger, state, style, transition  } from '@angular/animations';
 import { removeTrailingSlash } from 'angular-in-memory-web-api';
+import { bufferToggle } from 'rxjs/operators';
 
 @Component({
   selector: 'list-review',
   templateUrl: `./list-review.component.html`,
+  animations: [
+    trigger('openClose', [
+      // ...
+      state('open', style({
+        opacity: 1,
+        backgroundColor: 'yellow'
+      })),
+      state('closed', style({
+
+      })),
+      transition('open => closed', [
+        animate('1s')
+      ]),
+      transition('closed => open', [
+        animate('0.5s')
+      ]),
+    ]),
+  ]
 })
 export class ListReviewComponent {
 
   reviews: Review[] = null;
   typesOptions: string[] = null; 
-  typesWhiteList: string[] = ["4starslist"];
+
+  typesWhiteList: string[] = null;
   useWhiteList:boolean = false;
+  isOpen = true;
+  activeTypeAnim:string = "";
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
 
@@ -24,7 +47,7 @@ export class ListReviewComponent {
     this.typesOptions = this.reviewsService.getReviewTypes();
     this.typesWhiteList = this.reviewsService.getReviewTypes();
   }
-  
+
 
   getReviews(sortProperty:string) : void {
     this.reviewsService.getReviews()
@@ -33,12 +56,17 @@ export class ListReviewComponent {
     console.log("la propriété de trie : ", sortProperty);
   }
 
+  toggle() : void {
+    this.isOpen = !this.isOpen;
+  }
+
   reset() : void {
     this.typesWhiteList = this.reviewsService.getReviewTypes();
     this.useWhiteList=false;
   }
 
   isCheck(type:string) : boolean {
+
    if(!this.useWhiteList) {
      return false; //Par défaut on décoche tout, on n'utilise pas le trie
    }
@@ -52,6 +80,7 @@ export class ListReviewComponent {
 
   selectReview(review: Review) {
     console.log("Vous avez cliqué sur " + review.name);
+    
     if (review.driveLink == null) {
       let link =['/reviews', review.name.split(' ').join('_')];
       this.router.navigate(link);
@@ -68,13 +97,20 @@ export class ListReviewComponent {
   }
 
 	selectType($event: any, type: string): void {
+    
     if(this.useWhiteList === false) {
       this.typesWhiteList.length = 0;
       this.useWhiteList=true;
+    } else {
+      
     }
+    
 		let checked = $event.target.checked;
 		if (checked) {
-			this.typesWhiteList.push(type);
+      this.typesWhiteList.push(type);
+      this.activeTypeAnim = type;
+
+      //this.toggle();
 		} else {
 			let index = this.typesWhiteList.indexOf(type);
 			if (~index) {
@@ -82,5 +118,15 @@ export class ListReviewComponent {
 			}
     }
     console.log(this.typesWhiteList);
-	}
+  }
+  
+  checkTypeAnim(type:string): boolean {
+    console.log("le type a animer actuel",this.activeTypeAnim);
+    console.log("le type comparé",type);
+
+    if (this.activeTypeAnim === type) {return true; } else { return false;}
+      
+    
+  }
+
 }
