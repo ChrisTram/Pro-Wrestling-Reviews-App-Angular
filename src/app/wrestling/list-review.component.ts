@@ -3,6 +3,7 @@ import { OnInit } from '@angular/core';
 import { Review } from './review';
 import { Router } from '@angular/router';
 import { ReviewsService } from './reviews.service'
+import { removeTrailingSlash } from 'angular-in-memory-web-api';
 
 @Component({
   selector: 'list-review',
@@ -12,7 +13,7 @@ export class ListReviewComponent {
 
   reviews: Review[] = null;
   typesOptions: string[] = null; 
-  typesWhiteList: string[] = ["4starslist"]; //A corriger, doit être pleine au début puis la vider à la première utilisation du form
+  typesWhiteList: string[] = ["4starslist"];
   useWhiteList:boolean = false;
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
@@ -23,12 +24,31 @@ export class ListReviewComponent {
     this.typesOptions = this.reviewsService.getReviewTypes();
     this.typesWhiteList = this.reviewsService.getReviewTypes();
   }
+  
 
   getReviews(sortProperty:string) : void {
     this.reviewsService.getReviews()
     .subscribe(reviews => this.reviews = reviews.sort(this.reviewsService.dynamicSort(sortProperty)));
     console.log("le tableau trié : ", this.reviews);
     console.log("la propriété de trie : ", sortProperty);
+  }
+
+  reset() : void {
+    this.typesWhiteList = this.reviewsService.getReviewTypes();
+    this.getReviews("type");
+  }
+
+  isCheck(type:string) : boolean {
+   if(!this.useWhiteList) {
+     return false; //Par défaut on décoche tout, on n'utilise pas le trie
+   }  else {
+    if(this.typesWhiteList.indexOf(type) !== -1) {
+      return true; //l'attribut est dans la white list
+    } else {
+      return false;
+    }
+   }
+
   }
 
 
@@ -66,10 +86,4 @@ export class ListReviewComponent {
     console.log(this.typesWhiteList);
     this.getReviews("type");
 	}
-/*
-  onSubmit(): void {
-		console.log("Submit form !");
-		this.typesWhiteList.push(option.id);
-	}
-*/
 }

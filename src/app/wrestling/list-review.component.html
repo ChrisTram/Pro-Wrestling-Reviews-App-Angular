@@ -18,12 +18,11 @@
       <form class="form-group">
           <label for="typesOptions">Types</label>
           <p *ngFor="let type of typesOptions">
-            <label>
+            <label class="filter-list__itemLabel">
               <input type="checkbox"
                 class="filled-in"
-                id="{{ type }}"
                 [value]="type"
-                
+                [checked]="isCheck(type)" 
                 (change)="selectType($event, type)"/>
               <span [attr.for]="type">
                 <div class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">
@@ -33,6 +32,7 @@
             </label>
           </p>
         </form>
+        <a (click)='reset()' class="waves-effect waves-light btn">Tout afficher</a>
       </div>
 
     <!-- Reviews -->  

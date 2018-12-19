@@ -3,7 +3,7 @@ import { OnInit } from '@angular/core';
 
 
 @Component({
-  selector: 'pokemon-app',
+  selector: 'reviews-app',
   templateUrl: `./app.component.html`
 })
 export class AppComponent {
