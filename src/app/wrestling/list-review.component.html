@@ -8,7 +8,7 @@
     <div class="card horizontal">
     <div class="card-action center">
       <p>Trier par :</p>
-      <a (click)='getReviews("name")' class="waves-effect waves-light btn" style="margin-right: 2%">Nom</a>
+      <a (click)='getReviews("name")' class="waves-effect waves-light btn">Nom</a> &nbsp; 
       <a (click)='getReviews("type")' class="waves-effect waves-light btn">Type</a>
     </div>
     </div>
@@ -16,7 +16,7 @@
 
       <div class="card-panel">
       <form class="form-group">
-          <label for="typesOptions">Types</label>
+          <label for="typesOptions">Trier</label>
           <p *ngFor="let type of typesOptions">
             <label class="filter-list__itemLabel">
               <input type="checkbox"
@@ -32,7 +32,7 @@
             </label>
           </p>
         </form>
-        <a (click)='reset()' class="waves-effect waves-light btn">Tout afficher</a>
+        <a (click)='reset()' class="waves-effect waves-light btn">Reset tri</a>
       </div>
 
     <!-- Reviews -->  

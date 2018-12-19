@@ -35,20 +35,18 @@ export class ListReviewComponent {
 
   reset() : void {
     this.typesWhiteList = this.reviewsService.getReviewTypes();
-    this.getReviews("type");
+    this.useWhiteList=false;
   }
 
   isCheck(type:string) : boolean {
    if(!this.useWhiteList) {
      return false; //Par défaut on décoche tout, on n'utilise pas le trie
-   }  else {
-    if(this.typesWhiteList.indexOf(type) !== -1) {
-      return true; //l'attribut est dans la white list
-    } else {
-      return false;
-    }
    }
-
+   if(this.typesWhiteList.indexOf(type) !== -1) {
+    return true; //l'attribut est dans la white list
+    } else {
+     return false;
+    }
   }
 
 
@@ -84,6 +82,5 @@ export class ListReviewComponent {
 			}
     }
     console.log(this.typesWhiteList);
-    this.getReviews("type");
 	}
 }
