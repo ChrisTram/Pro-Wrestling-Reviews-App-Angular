@@ -42,7 +42,7 @@
     <!-- Reviews -->  
     <div *ngFor='let review of reviews; let i = index'>
       <div *ngIf="checkTypes(review.type)"  class="col s12 m4">
-      <div class="card horizontal pointers" [@openClose]="checkTypeAnim(review.type) ? 'open' : 'closed'" (click)="selectReview(review)" wrestlingBorderCard>
+      <div class="card horizontal pointer" [@openClose]="in" (click)="selectReview(review)" wrestlingBorderCard>
         <div class="card-image">
           <img src="{{'assets/'+ review.img + '.png'}}" alt="image">
         </div>

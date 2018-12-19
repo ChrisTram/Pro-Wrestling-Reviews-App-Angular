@@ -12,13 +12,6 @@ import { bufferToggle } from 'rxjs/operators';
   templateUrl: `./list-review.component.html`,
   animations: [
     trigger('openClose', [
-      /*
-      state('open', style({
-        backgroundColor: 'yellow'
-      })),
-      state('closed', style({
-
-      })),*/
       state('in', style({opacity: 1})), //le "resting" state
 
       transition(':enter', [
@@ -35,7 +28,6 @@ export class ListReviewComponent {
 
   typesWhiteList: string[] = null;
   useWhiteList:boolean = false;
-  activeTypeAnim:string = "";
 
   constructor(private router: Router, private reviewsService : ReviewsService) { }
 
@@ -103,7 +95,6 @@ export class ListReviewComponent {
 		let checked = $event.target.checked;
 		if (checked) {
       this.typesWhiteList.push(type);
-      this.activeTypeAnim = type;
 		} else {
 			let index = this.typesWhiteList.indexOf(type);
 			if (~index) {
@@ -112,12 +103,5 @@ export class ListReviewComponent {
     }
     console.log(this.typesWhiteList);
   }
-  /*
-  checkTypeAnim(type:string): boolean {
-    console.log("le type à animer actuel",this.activeTypeAnim);
-    console.log("le type comparé",type);
-
-    if (this.activeTypeAnim === type) {return true; } else { return false;}
-  }*/
 
 }
