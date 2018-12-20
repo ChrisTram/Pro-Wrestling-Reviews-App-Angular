@@ -1,72 +1,76 @@
-<h1 class='center'>Reviews</h1>
+<div id="Sidepanel">
+  <div class="card-panel">
+    <form class="form-group">
+      <!--<label for="typesOptions">Trier</label>-->
+      <div *ngFor="let type of typesOptions">
+        <label class="filter-list__itemLabel">
+          <input type="checkbox" class="filled-in" [value]="type" style="position: relative" [checked]="isCheck(type)"
+            (change)="selectType($event, type)" />
+          <span [attr.for]="type">
+            <div class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">
+              {{ type }}
+            </div>
+          </span>
+        </label>
+      </div>
 
-<div *ngIf="reviews"></div>
-<div class='container'>
+    </form>
+
+    <a (click)='reset()' style="margin-top:2%" class="waves-effect waves-light btn">Annuler tri</a>
+  </div>
+</div>
+
+<div class="container">
+
   <div class="row">
 
+    <div *ngIf="reviews"></div>
+
+    <!--<div class="col s12 m8 l11">-->
+    <h1 class='center'>Reviews</h1>
 
     <wrestling-search></wrestling-search>
 
 
-      <!--Types filters-->
-      <div class="card-panel">
-      <form class="form-group">
-          <!--<label for="typesOptions">Trier</label>-->
-          <span *ngFor="let type of typesOptions" >
-            <label class="filter-list__itemLabel" >
-              <input type="checkbox"
-                class="filled-in"
-                [value]="type"
-                style="position: relative"
-                [checked]="isCheck(type)" 
-                (change)="selectType($event, type)"/>
-              <span [attr.for]="type">
-                <div class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">
-                  {{ type }}
-                </div>
-              </span>
-            </label>
-          </span>
-          
-        </form>
-        
-        <a (click)='reset()' style="margin-top:2%" class="waves-effect waves-light btn">Annuler tri</a>
-      </div>
+    <!--Types filters-->
+    <div class="card-panel">
 
-  
+    </div>
 
-     
-    <!-- Reviews -->  
+
+
+
+    <!-- Reviews -->
     <div *ngFor='let review of reviews; let i = index'>
-      <div *ngIf="checkTypes(review.type)"  class="col s12 m4">
-      <div class="card horizontal pointer" [@openClose]="in" (click)="selectReview(review)" wrestlingBorderCard>
-        <div class="card-image">
-          <img src="{{'assets/'+ review.img + '.png'}}" alt="image">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <p>{{ review.name }}</p>
-            <p>
-              <small>{{ review.date | date:"dd/MM/yyyy" }}</small>
-            </p>
-            <div *ngIf="review.driveLink; else elseBlock">
-            <p>
-              <small> Review sur Google Drive !  </small>
-            </p>
-            </div>
-            <ng-template #elseBlock>
+      <div *ngIf="checkTypes(review.type)" class="col s12 m4">
+        <div class="card horizontal pointer" [@openClose]="in" (click)="selectReview(review)" wrestlingBorderCard>
+          <div class="card-image">
+            <img src="{{'assets/'+ review.img + '.png'}}" alt="image">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>{{ review.name }}</p>
               <p>
-                <small> Review sur le site !</small>
-              </p> 
-            </ng-template>
-            <span *ngFor='let type of review.types' class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">{{type}}</span>
+                <small>{{ review.date | date:"dd/MM/yyyy" }}</small>
+              </p>
+              <div *ngIf="review.driveLink; else elseBlock">
+                <p>
+                  <small> Review sur Google Drive ! </small>
+                </p>
+              </div>
+              <ng-template #elseBlock>
+                <p>
+                  <small> Review sur le site !</small>
+                </p>
+              </ng-template>
+              <span *ngFor='let type of review.types' class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">{{type}}</span>
+            </div>
           </div>
         </div>
-      </div>
+
       </div>
     </div>
-  </div>  
-</div>
-<h4 *ngIf ='!reviews' class='center'>
-  <wrestling-loader></wrestling-loader>
-</h4>>
+  </div>
+  <h4 *ngIf='!reviews' class='center'>
+    <wrestling-loader></wrestling-loader>
+  </h4>

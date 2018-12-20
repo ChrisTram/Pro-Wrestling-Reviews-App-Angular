@@ -18,3 +18,39 @@
   :host {
     display: block;
   }
+
+.container {
+    
+  margin: 0 auto;
+  max-width: 2500px;
+  width: 100%;
+  
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+     width: 100%;
+    }
+
+}
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  }
+
+}
+
+[type="checkbox"]+span:not(.lever) {
+    height: auto;
+}
+
+
+#Sidepanel{
+    position: fixed;
+}
+
+@media only screen and (max-width: 993px) {
+    #Sidepanel {
+        display:none;
+    }
+}
