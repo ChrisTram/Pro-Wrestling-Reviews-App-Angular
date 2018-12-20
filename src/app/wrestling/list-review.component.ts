@@ -7,6 +7,7 @@ import { animation, animate, trigger, state, style, transition  } from '@angular
 import { removeTrailingSlash } from 'angular-in-memory-web-api';
 import { bufferToggle } from 'rxjs/operators';
 
+
 @Component({
   selector: 'list-review',
   templateUrl: `./list-review.component.html`,
@@ -36,8 +37,9 @@ export class ListReviewComponent {
     this.getReviews("type"); //par défaut un trie par type
     this.typesOptions = this.reviewsService.getReviewTypes();
     this.typesWhiteList = this.reviewsService.getReviewTypes();
-  }
 
+    
+  }
 
   getReviews(sortProperty:string) : void {
     this.reviewsService.getReviews()

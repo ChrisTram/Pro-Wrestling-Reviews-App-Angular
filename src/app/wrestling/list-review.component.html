@@ -7,14 +7,6 @@
 
     <wrestling-search></wrestling-search>
 
-    <!--Sort order filters-->
-    <div class="card horizontal">
-    <div class="card-action center">
-      <p>Trier par :</p>
-      <a (click)='getReviews("name")' class="waves-effect waves-light btn">Nom</a> &nbsp; 
-      <a (click)='getReviews("type")' class="waves-effect waves-light btn">Type</a>
-    </div>
-    </div>
 
       <!--Types filters-->
       <div class="card-panel">
@@ -35,10 +27,15 @@
               </span>
             </label>
           </span>
+          
         </form>
+        
         <a (click)='reset()' style="margin-top:2%" class="waves-effect waves-light btn">Annuler tri</a>
       </div>
 
+  
+
+     
     <!-- Reviews -->  
     <div *ngFor='let review of reviews; let i = index'>
       <div *ngIf="checkTypes(review.type)"  class="col s12 m4">
@@ -69,7 +66,7 @@
       </div>
     </div>
   </div>  
-  </div>
+</div>
 <h4 *ngIf ='!reviews' class='center'>
   <wrestling-loader></wrestling-loader>
 </h4>>

@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms';
 //import { EditReviewComponent } from './edit-review.component';
 //import { ReviewFormComponent } from './review-form.component';
 import { AuthGuard } from '../auth-guard.service';
+//import { Ng2DropdownModule } from 'ng2-material-dropdown';
+//import { MaterializeModule } from "angular2-materialize";
 
 import { ReviewSearchComponent } from './search-review.component';
 
@@ -20,6 +22,8 @@ import { ReviewSearchComponent } from './search-review.component';
 	imports: [
 		CommonModule,
 		FormsModule,
+//		Ng2DropdownModule,
+//		MaterializeModule,
 		WrestlingRoutingModule
 	],
 	declarations: [
