@@ -13,7 +13,7 @@ export const REVIEWS: Review[] = [
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1JMhfPgYer2qA4PZj47CRTPTxyJLNgNG_ZOie5WKvhBM/edit#heading=h.wiv8pkhqgdxz",
 		img:"WWE",
-		type:"WWEPPV",
+		type:"WWE PPV",
 		types: ["WWE", "PPV"],
 	},
 

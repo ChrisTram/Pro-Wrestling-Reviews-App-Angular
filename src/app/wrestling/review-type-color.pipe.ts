@@ -14,10 +14,14 @@ export class ReviewTypeColorPipe implements PipeTransform {
         color = '#ff160b';
         break;
       case 'WWE':
+      case 'WWE PPV':
         color = '#90caf9';
         break;
       case 'PWG':
         color = '#cd9a00';
+        break;
+      case 'JAP':
+        color="#FF0505";
         break;
       case 'ROH':
         color = '#7D2207';
@@ -28,16 +32,13 @@ export class ReviewTypeColorPipe implements PipeTransform {
       case 'IMPACT':
         color = '#1b6dc1';
         break;
-      case 'Poison':
-        color = 'deep-purple accent-1';
-        break;
       case 'JOSHI':
         color = 'pink lighten-4';
         break;
-      case 'Psy':
-        color = 'deep-purple darken-2';
+      case 'INDÉ':
+        color = '#AA93D1';
         break;
-      case 'NXT':
+      case 'WWE NXT':
       case 'NXT UK':
         color = '#F19507';
         break;
