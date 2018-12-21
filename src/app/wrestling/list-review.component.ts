@@ -34,7 +34,7 @@ export class ListReviewComponent {
 
    ngOnInit() : void {
      
-    this.getReviews("type"); //par défaut un trie par type
+    this.getReviews("type"); //par défaut on trie par type, cela me permettra un affichage un peu perso
     this.typesOptions = this.reviewsService.getReviewTypes();
     this.typesWhiteList = this.reviewsService.getReviewTypes();
 
@@ -87,14 +87,12 @@ export class ListReviewComponent {
 
 	selectType($event: any, type: string): void {
     
-    if(this.useWhiteList === false) {
+    if(this.useWhiteList === false) { //A la première sélection on active la liste blanche
       this.typesWhiteList.length = 0;
       this.useWhiteList=true;
-    } else {
-      
     }
     
-		let checked = $event.target.checked;
+		let checked = $event.target.checked; //On vérifie l'action
 		if (checked) {
       this.typesWhiteList.push(type);
 		} else {
@@ -102,6 +100,10 @@ export class ListReviewComponent {
 			if (~index) {
 				this.typesWhiteList.splice(index, 1);
 			}
+    }
+
+    if (this.typesWhiteList.length===0) { //Si rien n'est sélectionné on remet l'état par défaut
+      this.reset();
     }
     console.log(this.typesWhiteList);
   }
