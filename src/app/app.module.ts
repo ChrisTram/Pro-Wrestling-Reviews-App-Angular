@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title  } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { PokemonsModule } from './pokemons/pokemon.module';
 import { WrestlingModule } from './wrestling/wrestling.module';
@@ -30,6 +30,9 @@ import { PageNotFoundComponent } from './page-not-found.component';
 		AppComponent,
 		LoginComponent,
 		PageNotFoundComponent
+	],
+	providers: [
+		Title
 	],
 	bootstrap: [AppComponent]
 })

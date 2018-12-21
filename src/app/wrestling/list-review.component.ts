@@ -6,6 +6,8 @@ import { ReviewsService } from './reviews.service';
 import { animation, animate, trigger, state, style, transition  } from '@angular/animations';
 import { removeTrailingSlash } from 'angular-in-memory-web-api';
 import { bufferToggle } from 'rxjs/operators';
+import { Title } from '@angular/platform-browser';
+import { AppComponent } from '../app.component';
 
 
 @Component({
@@ -30,14 +32,14 @@ export class ListReviewComponent {
   typesWhiteList: string[] = null;
   useWhiteList:boolean = false;
 
-  constructor(private router: Router, private reviewsService : ReviewsService) { }
+  constructor(private router: Router, private reviewsService : ReviewsService, private titleService : AppComponent) { }
 
    ngOnInit() : void {
      
     this.getReviews("type"); //par défaut on trie par type, cela me permettra un affichage un peu perso
     this.typesOptions = this.reviewsService.getReviewTypes();
     this.typesWhiteList = this.reviewsService.getReviewTypes();
-
+    this.titleService.updateTitle("Reviews")
     
   }
 
