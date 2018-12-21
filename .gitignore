@@ -5,7 +5,7 @@
 src/dist
 /dist
 src/app/pokemons
-/e2e
+
 #incaseofWebStorm
 /.idea
 # User-specific files
