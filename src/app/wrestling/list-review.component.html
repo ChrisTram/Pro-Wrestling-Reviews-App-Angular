@@ -50,9 +50,11 @@
           <div class="card-stacked">
             <div class="card-content">
               <p>{{ review.name }}</p>
+              
               <p>
                 <small>{{ review.date | date:"dd/MM/yyyy" }}</small>
               </p>
+              <!--
               <div *ngIf="review.driveLink; else elseBlock">
                 <p>
                   <small> Review sur Google Drive ! </small>
@@ -63,6 +65,7 @@
                   <small> Review sur le site !</small>
                 </p>
               </ng-template>
+            -->
               <span *ngFor='let type of review.types' class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">{{type}}</span>
             </div>
           </div>
