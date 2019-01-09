@@ -31,6 +31,16 @@ export const REVIEWS: Review[] = [
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
 	{
+		id:401,
+		name: "Les 4* 2019",
+		date: new Date(),
+		year: null,
+		driveLink:"https://docs.google.com/document/d/1smdDhBc_9jAQiACMtjM2QWOJAVKDfWTIa61euKsdj0I",
+		img:"4starslist",
+		type:"Liste 4*+",
+		types: ["Liste 4*+"],
+	},
+	{
 		id:402,
 		name: "Les 4* 2018",
 		date: new Date(),
@@ -41,7 +51,7 @@ export const REVIEWS: Review[] = [
 		types: ["Liste 4*+"],
 	},
 	{
-		id:401,
+		id:403,
 		name: "Les 4* 2017",
 		date: new Date(),
 		year: null,
@@ -49,6 +59,26 @@ export const REVIEWS: Review[] = [
 		img:"4starslist",
 		type:"Liste 4*+",
 		types: ["Liste 4*+"],
+	},
+	{
+		id:404,
+		name: "Bilan 2018",
+		date: new Date(),
+		year: null,
+		driveLink:"https://docs.google.com/document/d/1vSCsWTp9K5smYLVXKS4zIq70pfR0izGznk-pa3qdyAo",
+		img:"4starslist",
+		type:"Bilan",
+		types: ["Bilan"],
+	},	
+	{
+		id:405,
+		name: "Bilan mi parcours 2018",
+		date: new Date(),
+		year: null,
+		driveLink:"https://docs.google.com/document/d/14KMNmUIqUn0-dsLLB5EcKfumtN-S5ZPgllEBpoggG-s/edit?usp=sharing",
+		img:"4starslist",
+		type:"Bilan",
+		types: ["Bilan"],
 	},
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////MIX 2018////////////////////////////////
@@ -61,6 +91,16 @@ export const REVIEWS: Review[] = [
 		date: new Date(),
 		year: null,
 		driveLink:"https://docs.google.com/document/d/1WlZ_5zcflboPzuKFzMWMruOetdFdbRRuo6S0Sy4WrAg/edit",
+		img:"NJPW",
+		type:"NJPW",
+		types: ["NJPW"],
+	},
+	{
+		id:11.1,
+		name: "NJPW 2019",
+		date: new Date(),
+		year: null,
+		driveLink:"https://docs.google.com/document/d/1smdDhBc_9jAQiACMtjM2QWOJAVKDfWTIa61euKsdj0I",
 		img:"NJPW",
 		type:"NJPW",
 		types: ["NJPW"],
@@ -155,15 +195,6 @@ export const REVIEWS: Review[] = [
 		type:"INDÉ",
 		types: ["INDÉ"],
 	},
-	{
-		id:2,
-		name: "Bilan mi parcours 2018",
-		date: new Date(),
-		year: null,
-		driveLink:"https://docs.google.com/document/d/14KMNmUIqUn0-dsLLB5EcKfumtN-S5ZPgllEBpoggG-s/edit?usp=sharing",
-		img:"4starslist",
-		type:"Bilan",
-		types: ["Bilan"],
-	},
+
 
 ]
