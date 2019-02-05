@@ -27,6 +27,36 @@ export const REVIEWS: Review[] = [
 		type:"WWE PPV",
 		types: ["WWE", "PPV"],
 	},
+  {
+    id: 15,
+    name: "NXT TakeOver UK : Blackpool",
+    date: new Date(),
+    year: null,
+    driveLink: "https://docs.google.com/document/d/1xM1_Go9C-yyX0B4Iuk_jeqsy-RdmHzzSjQWU2VsBFn8",
+    img: "NXTUK",
+    type: "WWE PPV",
+    types: ["WWE", "NXT UK"],
+  },
+  {
+    id: 16,
+    name: "NXT TakeOver : Phoenix",
+    date: new Date(),
+    year: null,
+    driveLink: "https://docs.google.com/document/d/18y7rWDADBFub_oC8rU85kkW_zSKNdvYJGeYeYltL3lk",
+    img: "NXT",
+    type: "WWE PPV",
+    types: ["WWE", "NXT"],
+  },
+  {
+    id: 17,
+    name: "WWE Royal Rumble 2019",
+    date: new Date(),
+    year: null,
+    driveLink: "https://docs.google.com/document/d/1YqmPHbSBA-mgcJ2vSxUQiuJFmOsw4Jm1B3G2p7YwZII",
+    img: "WWE",
+    type: "WWE PPV",
+    types: ["WWE", "PPV"],
+  },
 		////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
