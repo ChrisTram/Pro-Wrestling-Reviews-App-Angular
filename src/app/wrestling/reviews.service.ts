@@ -62,7 +62,7 @@ export class ReviewsService {
   }
 
   getReviewTypes(): string[] {
-    return ['WWE PPV', 'NJPW', 'LISTE 4*+', 'JAP', 'IMPACT', 'INDÉ', 'ROH', 'PWG', 'WWE NXT', 'BILAN'];
+    return ['LISTE 4*+','WWE PPV', 'WWE NXT', 'NJPW', 'JAP', 'IMPACT', 'INDÉ', 'ROH', 'PWG','BILAN'];
   }
 
   // Retourne le review avec l'identifiant passé en paramètre
@@ -100,7 +100,7 @@ export class ReviewsService {
 
   dynamicSort(property: any) {
 
-    var sortOrder = 1;
+    var sortOrder = 0;
 
     if (property[0] === "-") {
       sortOrder = -1;
