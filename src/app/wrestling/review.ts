@@ -1,10 +1,8 @@
 export class Review {
     id: number;
     name: string;
-    date: Date;
+    date: number;
     driveLink: string;
-    year: number; //Utilisé pour le trie mais surtout les reviews qui ne concernent pas un show précis. 
-                  //TODO A supprimer et générer auto dans le futur. Pas d'utilité pour le moment
     img: string;              
     type: string; //Type de review, peut être une fed ou une zone géographique
                   //ex : Jap, PWG, UK, WWE, WWE NXT, WWE 205 Live, PROGRESS...

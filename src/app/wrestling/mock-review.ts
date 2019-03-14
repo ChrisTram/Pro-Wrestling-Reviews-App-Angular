@@ -10,8 +10,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:14,
 		name: "WWE TLC 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1qUQkxf7u_jQBItkxgw89fUwjJQzgABoaAJnFFo4mZTs/edit?usp=sharing",
 		img:"WWE",
 		type:"WWE PPV",
@@ -20,8 +19,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:14,
 		name: "WWE Hell In A Cell 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1JMhfPgYer2qA4PZj47CRTPTxyJLNgNG_ZOie5WKvhBM/edit#heading=h.wiv8pkhqgdxz",
 		img:"WWE",
 		type:"WWE PPV",
@@ -30,8 +28,7 @@ export const REVIEWS: Review[] = [
   {
     id: 15,
     name: "NXT TakeOver UK : Blackpool",
-    date: new Date(),
-    year: null,
+    date: 2018,
     driveLink: "https://docs.google.com/document/d/1xM1_Go9C-yyX0B4Iuk_jeqsy-RdmHzzSjQWU2VsBFn8",
     img: "NXTUK",
     type: "WWE PPV",
@@ -40,8 +37,7 @@ export const REVIEWS: Review[] = [
   {
     id: 16,
     name: "NXT TakeOver : Phoenix",
-    date: new Date(),
-    year: null,
+    date: 2018,
     driveLink: "https://docs.google.com/document/d/18y7rWDADBFub_oC8rU85kkW_zSKNdvYJGeYeYltL3lk",
     img: "NXT",
     type: "WWE PPV",
@@ -50,8 +46,7 @@ export const REVIEWS: Review[] = [
   {
     id: 17,
     name: "WWE Royal Rumble 2019",
-    date: new Date(),
-    year: null,
+    date: 2018,
     driveLink: "https://docs.google.com/document/d/1YqmPHbSBA-mgcJ2vSxUQiuJFmOsw4Jm1B3G2p7YwZII",
     img: "WWE",
     type: "WWE PPV",
@@ -60,8 +55,7 @@ export const REVIEWS: Review[] = [
 {
   id: 18,
   name: "WWE Elimination Chamber 2019",
-  date: new Date(),
-  year: null,
+  date: 2018,
   driveLink: "https://docs.google.com/document/d/132uYp-K13sT33oaHN_rqaPWEQawf2syjw6A_vuY0yJY",
   img: "WWE",
   type: "WWE PPV",
@@ -70,8 +64,7 @@ export const REVIEWS: Review[] = [
 {
 	id: 19,
 	name: "WWE Fastlane 2019",
-	date: new Date(),
-	year: null,
+	date: 2018,
 	driveLink: "https://docs.google.com/document/d/132uYp-K13sT33oaHN_rqaPWEQawf2syjw6A_vuY0yJY",
 	img: "WWE",
 	type: "WWE PPV",
@@ -85,8 +78,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:401,
 		name: "Les 4* 2019",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1smdDhBc_9jAQiACMtjM2QWOJAVKDfWTIa61euKsdj0I",
 		img:"4starslist",
 		type:"Liste 4*+",
@@ -95,8 +87,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:402,
 		name: "Les 4* 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1Kcpzcil3QecaY4JGnD8FYBt8OS-qsQfBICFQlgWj-2c/edit?usp=sharings",
 		img:"4starslist",
 		type:"Liste 4*+",
@@ -105,8 +96,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:403,
 		name: "Les 4* 2017",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/12Fp7ouasm_vaSRh00mRjXLFzvKYZ1zIqxPNZ5s5GyDU",
 		img:"4starslist",
 		type:"Liste 4*+",
@@ -115,8 +105,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:404,
 		name: "Bilan 2018",
-		date: new Date(),
-		year: null,
+		date: 2018, 
 		driveLink:"https://docs.google.com/document/d/1vSCsWTp9K5smYLVXKS4zIq70pfR0izGznk-pa3qdyAo",
 		img:"4starslist",
 		type:"Bilan",
@@ -125,8 +114,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:405,
 		name: "Bilan mi parcours 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/14KMNmUIqUn0-dsLLB5EcKfumtN-S5ZPgllEBpoggG-s/edit?usp=sharing",
 		img:"4starslist",
 		type:"Bilan",
@@ -140,8 +128,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:11,
 		name: "NJPW 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1WlZ_5zcflboPzuKFzMWMruOetdFdbRRuo6S0Sy4WrAg/edit",
 		img:"NJPW",
 		type:"NJPW",
@@ -150,8 +137,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:11.1,
 		name: "NJPW 2019",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1smdDhBc_9jAQiACMtjM2QWOJAVKDfWTIa61euKsdj0I",
 		img:"NJPW",
 		type:"NJPW",
@@ -160,8 +146,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:12,
 		name: "NJPW BOSJ 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1310NlpB9UMBDdNG_Bgd_VgP9QHCRpoM9dSynxuPDXAA/edit",
 		img:"NJPW",
 		type:"NJPW",
@@ -170,8 +155,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:10,
 		name: "NJPW G1 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1KoZix0UoTCiLBehLlCgN12cm0-wl3q7ATjTc0ziDO8Q/edit",
 		img:"NJPW",
 		type:"NJPW",
@@ -180,8 +164,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:9,
 		name: "IMPACT 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1MmrjdV7u3C889Q208JQRAs2KPhG8u1wLEkX2xGdqdZQ/edit",
 		img:"IMPACT",
 		type:"IMPACT",
@@ -190,8 +173,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:8,
 		name: "Jap 2018 : AJPW NOAH Dragon Gate DDT BJW",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1RuTip2OduveqHkmTTGe-pr1sa3hbUYDhdvqDkZcfBRY/edit",
 		img:"JAP",
 		type:"JAP",
@@ -200,8 +182,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:7,
 		name: "PROGRESS 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1xyJzOJQbHiaBjcT3-Q3oOthE5gJuLkmy9dcd25yS3Do/edit",
 		img:"PROGRESS",
 		type:"INDÉ",
@@ -210,8 +191,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:6,
 		name: "ROH 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1uFLYDA4G-CXz-qjODfCgZ_KE5b8XmUlvI07QhVenKgs/edit",
 		img:"ROH",
 		type:"ROH",
@@ -220,8 +200,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:5,
 		name: "PWG 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1dw0jrt6UCYQcK3qkt88IC7ZCdb_2ajtr-xG0Q8CeFvI/edit",
 		img:"PWG",
 		type:"PWG",
@@ -230,8 +209,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:4,
 		name: "WWE NXT UK 2018",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/11SAq9SWSwlNvcqWVV0FsnALhHe3fw4xCe4b2YYmRAY4/edit",
 		img:"NXTUK",
 		type:"WWE NXT",
@@ -240,8 +218,7 @@ export const REVIEWS: Review[] = [
 	{
 		id:3,
 		name: "Indé 2018 wXw EVOLVE GCW DEFIANT IWA ALL IN",
-		date: new Date(),
-		year: null,
+		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1ZjOGVs-pq62lqF-67taJqPyCG152RGPKMqJ7GFE0WXE/edit",
 		img:"INDÉ",
 		type:"INDÉ",
