@@ -56,7 +56,29 @@ export const REVIEWS: Review[] = [
     img: "WWE",
     type: "WWE PPV",
     types: ["WWE", "PPV"],
+},
+{
+  id: 18,
+  name: "WWE Elimination Chamber 2019",
+  date: new Date(),
+  year: null,
+  driveLink: "https://docs.google.com/document/d/132uYp-K13sT33oaHN_rqaPWEQawf2syjw6A_vuY0yJY",
+  img: "WWE",
+  type: "WWE PPV",
+  types: ["WWE", "PPV"],
+},
+{
+	id: 19,
+	name: "WWE Fastlane 2019",
+	date: new Date(),
+	year: null,
+	driveLink: "https://docs.google.com/document/d/132uYp-K13sT33oaHN_rqaPWEQawf2syjw6A_vuY0yJY",
+	img: "WWE",
+	type: "WWE PPV",
+	types: ["WWE", "PPV"],
   },
+  
+
 		////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
