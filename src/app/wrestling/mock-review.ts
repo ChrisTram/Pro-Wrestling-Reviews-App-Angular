@@ -81,8 +81,8 @@ export const REVIEWS: Review[] = [
 		date: 2019,
 		driveLink:"https://docs.google.com/document/d/1smdDhBc_9jAQiACMtjM2QWOJAVKDfWTIa61euKsdj0I",
 		img:"4starslist",
-		type:"Liste 4*+",
-		types: ["Liste 4*+"],
+		type:"LISTE 4*+",
+		types: ["LISTE 4*+"],
 	},
 	{
 		id:402,
@@ -90,8 +90,8 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1Kcpzcil3QecaY4JGnD8FYBt8OS-qsQfBICFQlgWj-2c/edit?usp=sharings",
 		img:"4starslist",
-		type:"Liste 4*+",
-		types: ["Liste 4*+"],
+		type:"LISTE 4*+",
+		types: ["LISTE 4*+"],
 	},
 	{
 		id:403,
@@ -99,8 +99,8 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/12Fp7ouasm_vaSRh00mRjXLFzvKYZ1zIqxPNZ5s5GyDU",
 		img:"4starslist",
-		type:"Liste 4*+",
-		types: ["Liste 4*+"],
+		type:"LISTE 4*+",
+		types: ["LISTE 4*+"],
 	},
 	{
 		id:4056,
@@ -108,8 +108,8 @@ export const REVIEWS: Review[] = [
 		date: 2018, 
 		driveLink:"https://docs.google.com/document/d/1vSCsWTp9K5smYLVXKS4zIq70pfR0izGznk-pa3qdyAo",
 		img:"4starslist",
-		type:"Liste 4*+",
-		types: ["Bilan"],
+		type:"BILAN",
+		types: ["BILAN"],
 	},	
 	{
 		id:405,
@@ -117,9 +117,10 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/14KMNmUIqUn0-dsLLB5EcKfumtN-S5ZPgllEBpoggG-s/edit?usp=sharing",
 		img:"4starslist",
-		type:"Liste 4*+",
-		types: ["Bilan"],
+		type:"BILAN",
+		types: ["BILAN"],
 	},
+
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////MIX 2018////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////

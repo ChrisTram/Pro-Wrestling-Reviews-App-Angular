@@ -26,7 +26,7 @@ export class ReviewTypeColorPipe implements PipeTransform {
       case 'ROH':
         color = '#7D2207';
         break;
-      case 'Liste 4*+':
+      case 'LISTE 4*+':
         color = 'yellow';
         break;
       case 'IMPACT':

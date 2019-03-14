@@ -62,7 +62,7 @@ export class ReviewsService {
   }
 
   getReviewTypes(): string[] {
-    return ['WWE PPV', 'NJPW', 'Liste 4*+', 'JAP', 'IMPACT', 'INDÉ', 'ROH', 'PWG', 'WWE NXT', 'BILAN'];
+    return ['WWE PPV', 'NJPW', 'LISTE 4*+', 'JAP', 'IMPACT', 'INDÉ', 'ROH', 'PWG', 'WWE NXT', 'BILAN'];
   }
 
   // Retourne le review avec l'identifiant passé en paramètre
