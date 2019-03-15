@@ -1,30 +1,9 @@
 import { Review } from './review';
 //utilisation du mock à nouveau, le node js c'est bien mais pas sur un serveur mutualisé...
 export const REVIEWS: Review[] = [
-
 	////////////////////////////////////////////////////////////////////////////////////
-	//////////////////////////////////////////////PPV/////////////////////////////////////
+	//////////////////////////////////////////////WWE 2019/////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
-
-
-	{
-		id:14,
-		name: "WWE TLC 2018",
-		date: 2018,
-		driveLink:"https://docs.google.com/document/d/1qUQkxf7u_jQBItkxgw89fUwjJQzgABoaAJnFFo4mZTs/edit?usp=sharing",
-		img:"WWETLC",
-		type:"WWE PPV",
-		types: ["WWE", "PPV"],
-	},
-	{
-		id:14,
-		name: "WWE Hell In A Cell 2018",
-		date: 2018,
-		driveLink:"https://docs.google.com/document/d/1JMhfPgYer2qA4PZj47CRTPTxyJLNgNG_ZOie5WKvhBM/edit#heading=h.wiv8pkhqgdxz",
-		img:"WWEHIAC",
-		type:"WWE PPV",
-		types: ["WWE", "PPV"],
-	},
   {
     id: 15,
     name: "NXT TakeOver UK : Blackpool",
@@ -72,6 +51,137 @@ export const REVIEWS: Review[] = [
   },
   
 
+	////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////WWE 2018/////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////
+
+
+	{
+		id:14,
+		name: "WWE TLC 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1qUQkxf7u_jQBItkxgw89fUwjJQzgABoaAJnFFo4mZTs/edit?usp=sharing",
+		img:"WWETLC",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Hell In A Cell 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1JMhfPgYer2qA4PZj47CRTPTxyJLNgNG_ZOie5WKvhBM/edit#heading=h.wiv8pkhqgdxz",
+		img:"WWEHIAC",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Greatest Royal Rumble",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1PLBwh9OJ-4_IN8yYlJMHEsNY2zcJ2-7h8NB4P2Fzhwk",
+		img:"WWEGRR",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Super Show Down",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1aAzYz37RZMumWpB9dPvLImSrUY7IHHqe-8mmS6ckVWc",
+		img:"WWESSD",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Wrestlemania 34",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1VFzbse1wxyoYk8qYgWyARXzOQhSqFESXXLc3jhZ_fTE",
+		img:"WWEWM34",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Money In The Bank 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1XJMOL1wPeQyQ3j2PceDZdlCNfmxk9atPSfWuBRo9x3c",
+		img:"WWEMITB",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Blacklash 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1s85To3V0d8Fq4e4BCXA2u5s1Hvu1rye-Uv1xZM7jBO8",
+		img:"WWEBC",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Fastlane 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1452mrHMr1d-P6fueu6QSs9NLxbyrqbQfj6qkA5auU_A",
+		img:"WWEFASTLANE",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Extreme Rules 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1t9vLsbgY9FU0xJPAeHxVwBpOXGl3KoMQhH8AimX1PYs",
+		img:"WWEER",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Elimination Chamber 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1_rk9QGClT2aFiAono7pMcj05NyTsmDiW5JsmyLFzxHc",
+		img:"WWEEC",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Royal Rumble 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/155FOgZKEPv5daOtoVHAfSJ3f4_V9ZmU59wiCM1SN3So",
+		img:"WWERR",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Evolution 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1F8Gq_XKo4Kc_AeOuVwkCwoUpi_btpEs3CD-fwE05Fow",
+		img:"WWEEV",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Summerslam 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1TbIflvzkCS87jnBRWY1Fg4ELJ9P0bE9kDAkN-6PMHbA",
+		img:"WWESMS",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+    id: 16,
+    name: "NXT TakeOver : Philadelphia",
+    date: 2018,
+    driveLink: "https://docs.google.com/document/d/1EPpBA8LPk8ELEavufFk5-5pQd9I2H592edRQoiGhC0k",
+    img: "NXTPHILADELPHIA",
+    type: "WWE NXT",
+    types: ["WWE", "NXT"],
+  },
 		////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
@@ -119,6 +229,28 @@ export const REVIEWS: Review[] = [
 		img:"4starslist",
 		type:"BILAN",
 		types: ["BILAN"],
+	},	
+	{
+		id:405,
+		name: "Bilan 2017",
+		date: 2017,
+		driveLink:"https://docs.google.com/document/d/1W1F-w-yIf3yAcf-kvak8Xw78bJMBp12UGMbleRgP3UU",
+		img:"4starslist",
+		type:"BILAN",
+		types: ["BILAN"],
+	},	
+	
+	////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////MIX 2019////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////
+	{
+		id:11.1,
+		name: "NJPW 2019",
+		date: 2019,
+		driveLink:"https://docs.google.com/document/d/17egvmGcXDYdHQ_cza7G6KEPAXxdRAatN_wI1Bt9-T6w",
+		img:"NJPW",
+		type:"NJPW",
+		types: ["NJPW"],
 	},
 
 	////////////////////////////////////////////////////////////////////////////////////
@@ -135,15 +267,7 @@ export const REVIEWS: Review[] = [
 		type:"NJPW",
 		types: ["NJPW"],
 	},
-	{
-		id:11.1,
-		name: "NJPW 2019",
-		date: 2019,
-		driveLink:"https://docs.google.com/document/d/17egvmGcXDYdHQ_cza7G6KEPAXxdRAatN_wI1Bt9-T6w",
-		img:"NJPW",
-		type:"NJPW",
-		types: ["NJPW"],
-	},
+
 	{
 		id:12,
 		name: "NJPW BOSJ 2018",
@@ -226,5 +350,16 @@ export const REVIEWS: Review[] = [
 		types: ["INDÉ"],
 	},
 
-
+	////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////MIX 2017////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////
+	{
+		id:20171,
+		name: "NJPW G1 2017",
+		date: 2017,
+		driveLink:"https://docs.google.com/document/d/1wwBwP2WQfpLfIMTlFJbEXW5EDk7uiP9Rr6r3tdQlIUA",
+		img:"NJPW",
+		type:"NJPW",
+		types: ["NJPW", "G1"]
+	},
 ]
