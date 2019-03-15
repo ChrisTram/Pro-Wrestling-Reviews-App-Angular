@@ -36,7 +36,7 @@ export class ListReviewComponent {
 
    ngOnInit() : void {
      
-    this.getReviews("-type"); //par défaut on trie par type, cela me permettra un affichage un peu perso
+    this.getReviews("name"); //par défaut on trie par type, cela me permettra un affichage un peu perso
                              //TODO remanier l'attribut "type" afin de vraiment avoir un trie perso
     this.typesOptions = this.reviewsService.getReviewTypes();
     this.typesWhiteList = this.reviewsService.getReviewTypes();
