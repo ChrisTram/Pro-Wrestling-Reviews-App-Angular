@@ -100,7 +100,7 @@ export class ReviewsService {
 
   dynamicSort(property: any) {
 
-    var sortOrder = 0;
+    var sortOrder = 1;
 
     if (property[0] === "-") {
       sortOrder = -1;
