@@ -24,10 +24,10 @@ export class ReviewTypeColorPipe implements PipeTransform {
         color="#FF0505";
         break;
       case 'ROH':
-        color = '#7D2207';
+        color = '#EFEFEF';
         break;
       case 'LISTE 4*+':
-        color = 'yellow';
+        color = '#FAC759';
         break;
       case 'IMPACT':
         color = '#1b6dc1';
@@ -38,6 +38,7 @@ export class ReviewTypeColorPipe implements PipeTransform {
       case 'INDÉ':
         color = '#AA93D1';
         break;
+      case 'NXT':
       case 'WWE NXT':
       case 'NXT UK':
         color = '#F19507';
