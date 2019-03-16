@@ -112,7 +112,7 @@ export const REVIEWS: Review[] = [
 	},
 	{
 		id:14,
-		name: "WWE Blacklash 2018",
+		name: "WWE Backlash 2018",
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1s85To3V0d8Fq4e4BCXA2u5s1Hvu1rye-Uv1xZM7jBO8",
 		img:"WWEBC",
@@ -206,7 +206,7 @@ export const REVIEWS: Review[] = [
 	////////////////////////////////////////////////////////////////////////////////////////
 	{
 		id:14,
-		name: "WWE Blacklash 2017",
+		name: "WWE Backlash 2017",
 		date: 2017,
 		driveLink:"https://docs.google.com/document/d/141blpnEiX8rVVf0yGm2p3nPrxSgDeXfmT_Yr0IJjE4U",
 		img:"WWEBC",
@@ -425,6 +425,18 @@ export const REVIEWS: Review[] = [
     img: "NXTTORONTO",
     type: "WWE NXT",
     types: ["WWE", "NXT"],
+	},
+			////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////WWE 2015/////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////
+	{
+		id:14,
+		name: "WWE Royal Rumble 2015",
+		date: 2015,
+		driveLink:"https://docs.google.com/document/d/1vn-sTSF99odUQajj6Owhjv56BIvwa5Hlt6ZRROyf0Vc",
+		img:"WWERR",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
 	},
 		////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
