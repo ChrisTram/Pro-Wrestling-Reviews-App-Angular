@@ -508,6 +508,15 @@ export const REVIEWS: Review[] = [
 		type:"NJPW",
 		types: ["NJPW"],
 	},
+  {
+     id: 11.1,
+     name: "NJPW New Japan Cup 2019",
+     date: 2019,
+     driveLink: "https://docs.google.com/document/d/1XXuYAJsd7D82EMMVJkDpN5RNaRYiQohiKmqCraLYRIc",
+     img: "NJPW",
+     type: "NJPW",
+     types: ["NJPW"],
+    },
 
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////MIX 2018////////////////////////////////
