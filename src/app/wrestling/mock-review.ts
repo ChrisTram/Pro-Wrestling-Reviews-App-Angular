@@ -49,15 +49,6 @@ export const REVIEWS: Review[] = [
   type: "WWE PPV",
   types: ["WWE", "PPV"],
 },
-{
-	id: 19,
-	name: "WWE Fastlane 2019",
-	date: 2019,
-	driveLink: "https://docs.google.com/document/d/132uYp-K13sT33oaHN_rqaPWEQawf2syjw6A_vuY0yJY",
-	img: "WWEFASTLANE",
-	type: "WWE PPV",
-	types: ["WWE", "PPV"],
-  },
   
 
 	////////////////////////////////////////////////////////////////////////////////////
