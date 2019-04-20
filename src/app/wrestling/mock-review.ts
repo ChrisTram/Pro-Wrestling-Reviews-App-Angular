@@ -477,6 +477,7 @@ export const REVIEWS: Review[] = [
 		type:"BILAN",
 		types: ["BILAN"],
 	},	
+
 	{
 		id:405,
 		name: "Bilan mi parcours 2018",
@@ -495,7 +496,15 @@ export const REVIEWS: Review[] = [
 		type:"BILAN",
 		types: ["BILAN"],
 	},	
-	
+	{
+		id:4056,
+		name: "30 Days Challenge 20/04/2019",
+		date: 2019, 
+		driveLink:"https://docs.google.com/document/d/1sACBiavedFXyMvDsGgJ72BwJI-SX_neP853hNwh9UWo/edit",
+		img:"WWEHOF",
+		type:"BILAN",
+		types: ["BILAN"],
+	},	
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////MIX 2019////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
