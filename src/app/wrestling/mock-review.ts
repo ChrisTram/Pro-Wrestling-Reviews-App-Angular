@@ -554,7 +554,7 @@ export const REVIEWS: Review[] = [
 		},
 		{
 			id:6,
-			name: "Indé 2019",
+			name: "Indé 2019 : wXw EVOLVE DEFIANT IWA ALL IN OTT REV PRO",
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1ijLwa7oK7yzz2Yrjbnx7_7jq4inBDn6n9ETQLlEItmw",
 			img:"INDÉ",
@@ -569,6 +569,33 @@ export const REVIEWS: Review[] = [
 			img:"PROGRESS",
 			type:"INDÉ",
 			types: ["INDÉ", "PROGRESS"],
+		},
+		{
+			id:3,
+			name: "GCW 2019",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1TJiZZzkKe_LymCinkkIsPCmjDKsvkpq4DA55lc1zDx4",
+			img:"GCW",
+			type:"INDÉ",
+			types: ["INDÉ","GCW"],
+		},
+		{
+			id:8,
+			name: "Jap 2019 : AJPW NOAH Dragon Gate DDT BJW",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1hgLb__cjRDCpTThJVH81iiwD4oo_MP-_kg4AKaN41Bo/",
+			img:"JAP",
+			type:"JAP",
+			types: ["JAP"],
+		},
+		{
+			id:5,
+			name: "PWG 2019",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1d49a9lkHsQeyudRiymU0m_II65Rd9JwDPdfaBDQsquU",
+			img:"PWG",
+			type:"PWG",
+			types: ["PWG"],
 		},
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////MIX 2018////////////////////////////////
@@ -622,6 +649,15 @@ export const REVIEWS: Review[] = [
 		types: ["JAP"],
 	},
 	{
+		id:8,
+		name: "Joshis 2018 : STARDOM TJP Sendai Girls SEAdLINNNG",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1OVTwKj-SBS1fTo53zDKEIGoK496n2Iqcen77-zSb3I8",
+		img:"JAP",
+		type:"JAP",
+		types: ["JAP"],
+	},
+	{
 		id:7,
 		name: "PROGRESS 2018",
 		date: 2018,
@@ -659,14 +695,22 @@ export const REVIEWS: Review[] = [
 	},
 	{
 		id:3,
-		name: "Indé 2018 wXw EVOLVE GCW DEFIANT IWA ALL IN",
+		name: "Indé 2018 wXw EVOLVE DEFIANT IWA ALL IN OTT RPW",
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1ZjOGVs-pq62lqF-67taJqPyCG152RGPKMqJ7GFE0WXE/edit",
 		img:"INDÉ",
 		type:"INDÉ",
 		types: ["INDÉ"],
 	},
-
+	{
+		id:3,
+		name: "GCW 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1AgVxf3mlt5hPa7JK-AU9ks3xUiObkkqZyYRJsZ6krdU",
+		img:"GCW",
+		type:"INDÉ",
+		types: ["INDÉ","GCW"],
+	},
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////MIX 2017////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
