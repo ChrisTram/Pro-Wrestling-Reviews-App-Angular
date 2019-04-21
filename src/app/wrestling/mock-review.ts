@@ -49,7 +49,15 @@ export const REVIEWS: Review[] = [
   type: "WWE PPV",
   types: ["WWE", "PPV"],
 },
-  
+{
+  id: 19,
+  name: "WWE Wrestlemania 35",
+  date: 2019,
+  driveLink: "https://docs.google.com/document/d/1K2YXyQGlXJta4yHcFyJqI4w6v9zFz8dJxPIsewkoIl4",
+  img: "WWEWM34",
+  type: "WWE PPV",
+  types: ["WWE", "PPV"],
+},
 
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2018/////////////////////////////////////
@@ -527,16 +535,41 @@ export const REVIEWS: Review[] = [
      types: ["NJPW"],
 		},
 		{
+			id: 11.1,
+			name: "NJPW BOSJ 2019",
+			date: 2019,
+			driveLink: "https://docs.google.com/document/d/1-pOcGtb0Cok8lvRbaHC8Ymy94BtRFIUDe9OdJyZeCP0",
+			img: "NJPW",
+			type: "NJPW",
+			types: ["NJPW","BOSJ"],
+		 },
+		{
 			id:6,
 			name: "ROH 2019",
-			date: 2018,
+			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1nW0yrLFZdGHBuy8-porrKkjRRLRUfaYtuBYpC61dEpk",
 			img:"ROH",
 			type:"ROH",
 			types: ["ROH"],
 		},
-	
-
+		{
+			id:6,
+			name: "Indé 2019",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1ijLwa7oK7yzz2Yrjbnx7_7jq4inBDn6n9ETQLlEItmw",
+			img:"INDÉ",
+			type:"INDÉ",
+			types: ["INDÉ"],
+		},
+		{
+			id:7,
+			name: "PROGRESS 2019",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/19ORX9y3iBSR56kEe9uEm5rmB4OTGWwKImJiU5kiBSTs",
+			img:"PROGRESS",
+			type:"INDÉ",
+			types: ["INDÉ", "PROGRESS"],
+		},
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////MIX 2018////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
