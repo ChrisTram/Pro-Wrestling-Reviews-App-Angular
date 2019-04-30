@@ -581,7 +581,7 @@ export const REVIEWS: Review[] = [
 		},
 		{
 			id:8,
-			name: "Jap 2019 : AJPW NOAH Dragon Gate DDT BJW",
+			name: "Jap 2019 : NOAH Dragon Gate DDT BJW",
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1hgLb__cjRDCpTThJVH81iiwD4oo_MP-_kg4AKaN41Bo/",
 			img:"JAP",
