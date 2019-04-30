@@ -451,7 +451,7 @@ export const REVIEWS: Review[] = [
 	////////////////////////////////////////////////////////////////////////////////////////
 	{
 		id:401,
-		name: "Archives 4* 2019",
+		name: "4* 2019",
 		date: 2019,
 		driveLink:"https://docs.google.com/document/d/1smdDhBc_9jAQiACMtjM2QWOJAVKDfWTIa61euKsdj0I",
 		img:"4starslist",
@@ -460,7 +460,7 @@ export const REVIEWS: Review[] = [
 	},
 	{
 		id:402,
-		name: "Archives 4* 2018",
+		name: "4* 2018",
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1Kcpzcil3QecaY4JGnD8FYBt8OS-qsQfBICFQlgWj-2c/edit?usp=sharings",
 		img:"4starslist",
@@ -469,7 +469,7 @@ export const REVIEWS: Review[] = [
 	},
 	{
 		id:403,
-		name: "Archives 4* 2017",
+		name: "4* 2017",
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/12Fp7ouasm_vaSRh00mRjXLFzvKYZ1zIqxPNZ5s5GyDU",
 		img:"4starslist",
@@ -589,6 +589,24 @@ export const REVIEWS: Review[] = [
 			types: ["JAP"],
 		},
 		{
+			id:8,
+			name: "AJPW 2019",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1oCKhqoGO_3WQ8dN7XK8QHxth-IUaS0q37bE7BrYhtT8",
+			img:"AJPW",
+			type:"JAP",
+			types: ["JAP", "AJPW"],
+		},
+		{
+			id:8,
+			name: "AJPW Champion Carnival 2019",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1-K6fAS5MOL_CIYvhvuslihSs6cN-y_ZwRVODvzET3kg",
+			img:"AJPW",
+			type:"JAP",
+			types: ["JAP", "AJPW"],
+		},
+		{
 			id:5,
 			name: "PWG 2019",
 			date: 2019,
@@ -629,6 +647,15 @@ export const REVIEWS: Review[] = [
 		img:"NJPW",
 		type:"NJPW",
 		types: ["NJPW", "G1"]
+	},
+	{
+		id:8,
+		name: "AJPW 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/1Y7ehVVEbn5zTC6jEURL93wIFcd2cJQEthVeZfVUYvsU",
+		img:"AJPW",
+		type:"JAP",
+		types: ["JAP", "AJPW"],
 	},
 	{
 		id:9,
