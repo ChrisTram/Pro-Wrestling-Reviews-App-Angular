@@ -25,9 +25,9 @@ import { ReviewSearchComponent } from './search-review.component';
 	declarations: [
 		ListReviewComponent,
 		DetailReviewComponent,
+		LoaderComponent,
 //  	EditReviewComponent,
 //		ReviewFormComponent,
-		LoaderComponent,
 		ReviewSearchComponent,
 		BorderCardDirective,
 		ReviewTypeColorPipe

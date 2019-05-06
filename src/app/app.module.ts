@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, Title  } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import { PokemonsModule } from './pokemons/pokemon.module';
 import { WrestlingModule } from './wrestling/wrestling.module';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login.component';
@@ -22,7 +21,6 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 	  FormsModule,
 	  BrowserAnimationsModule,
 	  HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, { dataEncapsulation: false}),
-	  PokemonsModule,
 	  WrestlingModule,
 	  LoginRoutingModule,
 	  AppRoutingModule
