@@ -554,7 +554,7 @@ export const REVIEWS: Review[] = [
 		},
 		{
 			id:6,
-			name: "Indé 2019 : wXw EVOLVE DEFIANT IWA ALL IN OTT REV PRO",
+			name: "Indé 2019 : wXw EVOLVE DEFIANT OTT RPW",
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1ijLwa7oK7yzz2Yrjbnx7_7jq4inBDn6n9ETQLlEItmw",
 			img:"INDÉ",
@@ -722,7 +722,7 @@ export const REVIEWS: Review[] = [
 	},
 	{
 		id:3,
-		name: "Indé 2018 wXw EVOLVE DEFIANT IWA ALL IN OTT RPW",
+		name: "Indé 2018 wXw EVOLVE DEFIANT OTT RPW",
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1ZjOGVs-pq62lqF-67taJqPyCG152RGPKMqJ7GFE0WXE/edit",
 		img:"INDÉ",
