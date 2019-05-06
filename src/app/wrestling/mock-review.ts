@@ -29,7 +29,7 @@ export const REVIEWS: Review[] = [
     driveLink: "https://docs.google.com/document/d/1YqmPHbSBA-mgcJ2vSxUQiuJFmOsw4Jm1B3G2p7YwZII",
     img: "WWERR",
     type: "WWE PPV",
-    types: ["WWE", "PPV"],
+    types: ["WWE PPV"],
 },
       {
         id: 17,
@@ -38,7 +38,7 @@ export const REVIEWS: Review[] = [
         driveLink: "https://docs.google.com/document/d/1EuhjtCvpLM-AzFE65srbHWFJ5I0CzuAhouNgmExMfIU",
         img: "WWEFASTLANE",
         type: "WWE PPV",
-        types: ["WWE", "PPV"],
+        types: ["WWE PPV"],
     },
 {
   id: 18,
@@ -47,7 +47,7 @@ export const REVIEWS: Review[] = [
   driveLink: "https://docs.google.com/document/d/132uYp-K13sT33oaHN_rqaPWEQawf2syjw6A_vuY0yJY",
   img: "WWEEC",
   type: "WWE PPV",
-  types: ["WWE", "PPV"],
+  types: ["WWE PPV"],
 },
 {
   id: 19,
@@ -56,7 +56,7 @@ export const REVIEWS: Review[] = [
   driveLink: "https://docs.google.com/document/d/1K2YXyQGlXJta4yHcFyJqI4w6v9zFz8dJxPIsewkoIl4",
   img: "WWEWM34",
   type: "WWE PPV",
-  types: ["WWE", "PPV"],
+  types: ["WWE PPV"],
 },
 
 	////////////////////////////////////////////////////////////////////////////////////
@@ -71,7 +71,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1qUQkxf7u_jQBItkxgw89fUwjJQzgABoaAJnFFo4mZTs/edit?usp=sharing",
 		img:"WWETLC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -80,7 +80,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1JMhfPgYer2qA4PZj47CRTPTxyJLNgNG_ZOie5WKvhBM/edit#heading=h.wiv8pkhqgdxz",
 		img:"WWEHIAC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -89,7 +89,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1PLBwh9OJ-4_IN8yYlJMHEsNY2zcJ2-7h8NB4P2Fzhwk",
 		img:"WWEGRR",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -98,7 +98,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1aAzYz37RZMumWpB9dPvLImSrUY7IHHqe-8mmS6ckVWc",
 		img:"WWESSD",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -107,7 +107,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1VFzbse1wxyoYk8qYgWyARXzOQhSqFESXXLc3jhZ_fTE",
 		img:"WWEWM34",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -116,7 +116,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1XJMOL1wPeQyQ3j2PceDZdlCNfmxk9atPSfWuBRo9x3c",
 		img:"WWEMITB",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -125,7 +125,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1s85To3V0d8Fq4e4BCXA2u5s1Hvu1rye-Uv1xZM7jBO8",
 		img:"WWEBC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -134,7 +134,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1452mrHMr1d-P6fueu6QSs9NLxbyrqbQfj6qkA5auU_A",
 		img:"WWEFASTLANE",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -143,7 +143,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1t9vLsbgY9FU0xJPAeHxVwBpOXGl3KoMQhH8AimX1PYs",
 		img:"WWEER",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -152,7 +152,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1_rk9QGClT2aFiAono7pMcj05NyTsmDiW5JsmyLFzxHc",
 		img:"WWEEC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -161,7 +161,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/155FOgZKEPv5daOtoVHAfSJ3f4_V9ZmU59wiCM1SN3So",
 		img:"WWERR",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -170,7 +170,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1F8Gq_XKo4Kc_AeOuVwkCwoUpi_btpEs3CD-fwE05Fow",
 		img:"WWEEV",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -179,7 +179,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1TbIflvzkCS87jnBRWY1Fg4ELJ9P0bE9kDAkN-6PMHbA",
 		img:"WWESMS",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -188,7 +188,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1v72ezYmIHlSBDGjw8ojXTUzGzG2gHMjn9g-WfJo05W4",
 		img:"WWESS",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
     id: 16,
@@ -219,7 +219,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/141blpnEiX8rVVf0yGm2p3nPrxSgDeXfmT_Yr0IJjE4U",
 		img:"WWEBC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -228,7 +228,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1_SrIWHJv0bdsPaLZjdaH-S-qnF4Z5vpGj4c4Apob4mY",
 		img:"WWEEC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -237,7 +237,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1jPuU7Ez6-FSUpIwjdrr-7l7eTgiIzW7HUOCerh18y7E",
 		img:"WWECOC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -246,7 +246,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/10gNqQzGyoryu0OyQGosvzY6Y5fWo-bz2XDueD2hENS0",
 		img:"WWEBG",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -255,7 +255,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1ibZ1432oDGm22PmJXeFCQJyf06Z_qfXHVfPYHZ4eB4A",
 		img:"WWEER",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -264,7 +264,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1oEJ4KvK6vfGj9q7hXJMeOdNWo1G9aSl8Gznd9ccSECo",
 		img:"WWEFASTLANE",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -273,7 +273,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/10WiukPnG057Rm5GQ3rzlQyL5LGWAm5he06RXx75ATQk",
 		img:"WWEGBOF",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -282,7 +282,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/19xtMiEQzJidFq-VrC0OhT8ovF5yiFW3VSlwKnfIJnQM",
 		img:"WWEHIAC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -291,7 +291,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1dIwNfVqOhlftM84zo96CEAq3wekYO6xIgWABfvE5EjQ",
 		img:"WWENMRAW",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -300,7 +300,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1O8ksKTs7-kxhcAHFG7l0hifpi0NCzXpAMmepNYmi-R0",
 		img:"WWEPAYBACK",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -309,7 +309,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1dtd3QJgBZYfkmpPVkPzXMSAk-Lo-n8JS36SQ1o2Lzrc",
 		img:"WWERR",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -318,7 +318,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1ibNftFixEEjhG404JwjSlVFCqjjypDjiquS7LxioOao",
 		img:"WWESMS",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -327,7 +327,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/17kETvSD43tXDOQVeVAdnQQLtEiHNlxZd5DjZrWScYzg",
 		img:"WWESS",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -336,7 +336,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1Yq5nKh9vMB9AdjzyLh_Q6r_8OVLHXOnXfzGDrJ168jw",
 		img:"WWETLC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -345,7 +345,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1MsxAiDq1ynkedyd2n_qVvVXASgEqdQ2w2_lL2Wt-Ds4",
 		img:"WWEWM33",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
   {
     id: 16,
@@ -396,7 +396,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1IZkrO5xS4KL_lXWpWnohrdOOFemoxlS_Obw6kp-uzHw",
 		img:"WWESMS",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -405,7 +405,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1RZ__7iPNg2wqZ7Sv7jerWtWDZ5-f227yw6L5QufXDyw",
 		img:"WWENM",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -414,7 +414,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1NQQcehCyXb_ImISFsWs8iqnYunDpa6bBwjGJ_s1nHmc",
 		img:"WWESS",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
 		id:14,
@@ -423,7 +423,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1lPoouCEXGy13n1hyvLQoWA6KGQx11WUGUe9_dbUC_KM",
 		img:"WWETLC",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 	{
     id: 16,
@@ -444,7 +444,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1vn-sTSF99odUQajj6Owhjv56BIvwa5Hlt6ZRROyf0Vc",
 		img:"WWERR",
 		type:"WWE PPV",
-		types: ["WWE", "PPV"],
+		types: ["WWE PPV"],
 	},
 		////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
