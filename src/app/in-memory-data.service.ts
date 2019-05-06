@@ -5,6 +5,6 @@ import { REVIEWS } from './wrestling/mock-review';
 export class InMemoryDataService implements InMemoryDbService {
 	createDb() {
 		let reviews = REVIEWS;
-		return reviews;
+		return {reviews};
 	}
 }
