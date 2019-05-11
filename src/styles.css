@@ -11,6 +11,10 @@
     width: 100%;
 }
 
+
+
+
+
 [type="checkbox"].filled-in:not(:checked)+span:not(.lever):after {
     top: 6px;  /*Utile en inline seulement*/
 }
@@ -33,7 +37,7 @@
     }
 
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1200px) {
   .container {
     width: 70%;
   }
@@ -50,7 +54,7 @@
     margin-top: 126px;
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 1200px) {
     #Sidepanel {
         display:none;
     }
