@@ -35,7 +35,9 @@ export class ListReviewComponent {
   constructor(private router: Router, private reviewsService : ReviewsService, private titleService : AppComponent) { }
 
    ngOnInit() : void {
-     
+    $(document).ready(function(){
+      $('.collapsible').collapsible();
+    });
     this.getReviews("name"); //par défaut on trie par type, cela me permettra un affichage un peu perso
                              //TODO remanier l'attribut "type" afin de vraiment avoir un trie perso
     this.typesOptions = this.reviewsService.getReviewTypes();
