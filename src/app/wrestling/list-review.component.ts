@@ -8,6 +8,8 @@ import { removeTrailingSlash } from 'angular-in-memory-web-api';
 import { bufferToggle } from 'rxjs/operators';
 import { Title } from '@angular/platform-browser';
 import { AppComponent } from '../app.component';
+declare var $:any;
+
 
 
 @Component({
