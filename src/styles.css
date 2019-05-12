@@ -59,4 +59,7 @@
     position: fixed;
 }
 
-
+.page-footer {
+  padding-top:0px;
+  background-color: #009688 !important;
+}
