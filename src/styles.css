@@ -30,6 +30,7 @@
   width: 100%;
   
 }
+
 /*Container selon écran*/
 @media only screen and (min-width: 601px) {
     .container {
@@ -39,10 +40,15 @@
 }
 @media only screen and (min-width: 1250px) {
   .container {
-    width: 73%;
+    width: 100%;
   }
 
 }
+@media only screen and (max-width: 1250px) {
+  #Sidepanel {
+      display:none;
+  }
+}  
 
 [type="checkbox"]+span:not(.lever) {
     height: auto;
@@ -54,8 +60,4 @@
     margin-top: 126px;
 }
 
-@media only screen and (max-width: 1250px) {
-    #Sidepanel {
-        display:none;
-    }
-}
+

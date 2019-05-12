@@ -40,6 +40,19 @@ export class ListReviewComponent {
     $(document).ready(function(){
       $('.collapsible').collapsible();
     });
+
+    $(window).on('resize', function() {
+      if($(window).width() < 1250) {
+          $('#Maincontainer').addClass('s12');
+          $('#Maincontainer').removeClass('s9');
+          $('#Maincontainer').removeClass('offset-s2');
+      }else{
+        $('#Maincontainer').addClass('s9');
+        $('#Maincontainer').addClass('offset-s2');
+        $('#Maincontainer').removeClass('s12');
+      }
+  })
+
     this.getReviews("name"); //par défaut on trie par type, cela me permettra un affichage un peu perso
                              //TODO remanier l'attribut "type" afin de vraiment avoir un trie perso
     this.typesOptions = this.reviewsService.getReviewTypes();
