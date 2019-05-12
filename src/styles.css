@@ -37,9 +37,9 @@
     }
 
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1250px) {
   .container {
-    width: 70%;
+    width: 73%;
   }
 
 }
@@ -54,7 +54,7 @@
     margin-top: 126px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
     #Sidepanel {
         display:none;
     }
