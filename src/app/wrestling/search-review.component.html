@@ -2,9 +2,9 @@
     <div class="col s12 m6 offset-m3">
       <div class="card">
         <div class="card-content">
-          <div class="input-field">
-            <input #searchBox (keyup)="search(searchBox.value)"
-              placeholder="Rechercher une review par thème (ex : NJPW 2018, BOSJ 2018, 4* star 2018..."/>
+          <div class="input-field">  
+            <textarea #searchBox (keyup)="search(searchBox.value)" id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Rechercher une review par thème (ex : NJPW 2019, G1, 4* stars...)</label>
           </div>
   
           <div class="collection">
