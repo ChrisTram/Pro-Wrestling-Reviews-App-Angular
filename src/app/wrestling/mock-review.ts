@@ -21,7 +21,16 @@ export const REVIEWS: Review[] = [
     img: "NXTPHOENIX",
     type: "WWE NXT",
     types: ["WWE", "NXT"],
-  },
+	},/* PERDU / ECRITE EN LOCALE SUR AUTRE PC ?
+	{
+    id: 16,
+    name: "NXT TakeOver : New York",
+    date: 2019,
+    driveLink: "https://docs.google.com/document/d/18y7rWDADBFub_oC8rU85kkW_zSKNdvYJGeYeYltL3lk",
+    img: "NXTNYC",
+    type: "WWE NXT",
+    types: ["WWE", "NXT"],
+  },*/
   {
     id: 17,
     name: "WWE Royal Rumble 2019",
@@ -54,7 +63,7 @@ export const REVIEWS: Review[] = [
   name: "WWE Wrestlemania 35",
   date: 2019,
   driveLink: "https://docs.google.com/document/d/1K2YXyQGlXJta4yHcFyJqI4w6v9zFz8dJxPIsewkoIl4",
-  img: "WWEWM34",
+  img: "WWEWM35",
   type: "WWE PPV",
   types: ["WWE", "PPV"],
 },

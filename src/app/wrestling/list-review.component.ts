@@ -36,11 +36,15 @@ export class ListReviewComponent {
 
   constructor(private router: Router, private reviewsService : ReviewsService, private titleService : AppComponent) { }
 
+
+
    ngOnInit() : void {
+
+    //collapsible animations
     $(document).ready(function(){
       $('.collapsible').collapsible();
     });
-
+    //Removing sidebar depending of screen size and changing col attributes
     $(window).on('resize', function() {
       if($(window).width() < 1250) {
           $('#Maincontainer').addClass('s12');
