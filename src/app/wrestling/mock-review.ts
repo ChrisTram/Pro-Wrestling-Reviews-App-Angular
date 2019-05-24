@@ -67,6 +67,15 @@ export const REVIEWS: Review[] = [
   type: "WWE PPV",
   types: ["WWE", "PPV"],
 },
+{
+  id: 19,
+  name: "WWE Money In The Bank 2019",
+  date: 2019,
+  driveLink: "https://docs.google.com/document/d/12D6iRmSL5kSoMTqwhOeomB9NxBMyWSeB0ZO4bn5Ifyc",
+  img: "WWEMITB",
+  type: "WWE PPV",
+  types: ["WWE", "PPV"],
+},
 
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2018/////////////////////////////////////
