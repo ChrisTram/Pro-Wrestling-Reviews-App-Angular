@@ -535,6 +535,15 @@ export const REVIEWS: Review[] = [
 	//////////////////////////////////////////////MIX 2019////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
 	{
+		id:11.11,
+		name: "AEW 2019",
+		date: 2019,
+		driveLink:"https://docs.google.com/document/d/10MT2uqplD2zaOPSKKqX4BTdpAmmAgzgwzFclMLWa5hU",
+		img:"AEW",
+		type:"AEW",
+		types: ["AEW"],
+	},
+	{
 		id:11.1,
 		name: "NJPW 2019",
 		date: 2019,
