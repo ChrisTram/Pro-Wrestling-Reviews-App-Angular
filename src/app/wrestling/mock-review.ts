@@ -21,6 +21,26 @@ export const REVIEWS: Review[] = [
     img: "NXTPHOENIX",
     type: "WWE NXT",
     types: ["WWE", "NXT"],
+	},
+	
+  {
+    id: 16,
+    name: "NXT TakeOver : New York",
+    date: 2019,
+    driveLink: "hhttps://docs.google.com/document/d/101Q35HWN5aB9szH9pP5_ffMid403UemtVQBB5uPSskk",
+    img: "NXT",
+    type: "WWE NXT",
+    types: ["WWE", "NXT"],
+	},
+	
+  {
+    id: 16,
+    name: "NXT TakeOver : XXV",
+    date: 2019,
+    driveLink: "https://docs.google.com/document/d/1EJxrpyOPpjtUWGfKf1_CywFx1fvLgawFQr25B5St99Y",
+    img: "NXT",
+    type: "WWE NXT",
+    types: ["WWE", "NXT"],
 	},/* PERDU / ECRITE EN LOCALE SUR AUTRE PC ?
 	{
     id: 16,
