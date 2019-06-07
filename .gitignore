@@ -6,6 +6,7 @@ src/dist
 /dist
 src/app/pokemons
 
+
 #incaseofWebStorm
 /.idea
 # User-specific files
@@ -33,7 +34,7 @@ bld/
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
-
+src/a.code-workspace
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
