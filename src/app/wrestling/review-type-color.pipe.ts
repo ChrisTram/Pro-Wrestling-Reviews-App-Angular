@@ -13,6 +13,10 @@ export class ReviewTypeColorPipe implements PipeTransform {
       case 'NJPW':
         color = '#ff160b';
         break;
+      case 'BOSJ':
+      case 'G1' :
+        color = '#FFD810';
+        break;  
       case 'AEW':
         color = "#B89F45";
         break;  
@@ -27,7 +31,7 @@ export class ReviewTypeColorPipe implements PipeTransform {
         color="#FF0505";
         break;
       case 'ROH':
-        color = '#EFEFEF';
+        color = '#949494';
         break;
       case 'LISTE 4*+':
         color = '#FAC759';

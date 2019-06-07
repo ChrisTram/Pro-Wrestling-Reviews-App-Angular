@@ -57,6 +57,7 @@
 
 #Sidepanel{
     position: fixed;
+    margin-top: 90px;
 }
 
 .page-footer {
