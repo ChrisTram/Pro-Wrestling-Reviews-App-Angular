@@ -32,7 +32,7 @@ import { AuthService } from './auth.service';
   `
 })
 export class LoginComponent {
-	message: string = 'Vous êtes déconnecté. (pikachu/pikachu)';
+	message: string = 'Vous êtes déconnecté. (wrestling/wrestling)';
 	name: string;
 	password: string;
 
@@ -51,8 +51,8 @@ export class LoginComponent {
 			this.setMessage();
 			if (this.authService.isLoggedIn) {
 				// Récupère l'URL de redirection depuis le service d'authentification
-				// Si aucune redirection n'a été définis, redirige l'utilisateur vers la liste des pokemons.
-				let redirect = this.authService.redirectUrl ? this.authService.redirectUrl : '/pokemon/all';
+				// Si aucune redirection n'a été définis, redirige l'utilisateur vers la liste des reviews.
+				let redirect = this.authService.redirectUrl ? this.authService.redirectUrl : '/reviews/all';
 				// Redirige l'utilisateur
 				this.router.navigate([redirect]);
 			} else {

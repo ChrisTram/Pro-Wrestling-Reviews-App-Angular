@@ -13,6 +13,9 @@ export class ReviewTypeColorPipe implements PipeTransform {
       case 'NJPW':
         color = '#ff160b';
         break;
+      case 'AEW':
+        color = "#B89F45";
+        break;  
       case 'WWE':
       case 'WWE PPV':
         color = '#90caf9';

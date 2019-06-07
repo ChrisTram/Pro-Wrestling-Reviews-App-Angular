@@ -57,8 +57,7 @@ export class ListReviewComponent {
       }
   })
 
-    this.getReviews("name"); //par défaut on trie par type, cela me permettra un affichage un peu perso
-                             //TODO remanier l'attribut "type" afin de vraiment avoir un trie perso
+    this.getReviews("name"); //Par défaut, trie par nom
     this.typesOptions = this.reviewsService.getReviewTypes();
     this.typesWhiteList = this.reviewsService.getReviewTypes();
     this.titleService.updateTitle("Reviews")
@@ -68,6 +67,7 @@ export class ListReviewComponent {
   getReviews(sortProperty:string) : void {
     this.reviewsService.getReviews()
     .subscribe(reviews => this.reviews = reviews.sort(this.reviewsService.dynamicSort(sortProperty)));
+    //Affichage de la méthode de trie
     console.log("le tableau trié : ", this.reviews);
     console.log("la propriété de trie : ", sortProperty);
   }

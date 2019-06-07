@@ -53,7 +53,7 @@ export class ReviewsService {
     );
   }
 
-  // Retourne tous les reviews
+  // Retourne toutes les reviews
   getReviews(): Observable<Review[]> {
     return this.http.get<Review[]>(this.reviewsUrl).pipe(
       tap(_ => this.log(`fetched reviews`)),
