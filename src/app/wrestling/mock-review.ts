@@ -41,16 +41,7 @@ export const REVIEWS: Review[] = [
     img: "NXTXXV",
     type: "WWE NXT",
     types: ["WWE", "NXT"],
-	},/* PERDU / ECRITE EN LOCALE SUR AUTRE PC ?
-	{
-    id: 16,
-    name: "NXT TakeOver : New York",
-    date: 2019,
-    driveLink: "https://docs.google.com/document/d/18y7rWDADBFub_oC8rU85kkW_zSKNdvYJGeYeYltL3lk",
-    img: "NXTNYC",
-    type: "WWE NXT",
-    types: ["WWE", "NXT"],
-  },*/
+},
   {
     id: 17,
     name: "WWE Royal Rumble 2019",
@@ -59,6 +50,15 @@ export const REVIEWS: Review[] = [
     img: "WWERR",
     type: "WWE PPV",
     types: ["WWE", "PPV"],
+},
+{
+	id:14,
+	name: "WWE Super Show Down 2019",
+	date: 2018,
+	driveLink:"https://docs.google.com/document/d/1O_p0pLHlJ_CzHP2d81FeLhuQHHNL6tQGfKUECLrUo_w",
+	img:"WWESSD2",
+	type:"WWE PPV",
+	types: ["WWE", "PPV"],
 },
       {
         id: 17,
@@ -131,7 +131,7 @@ export const REVIEWS: Review[] = [
 	},
 	{
 		id:14,
-		name: "WWE Super Show Down",
+		name: "WWE Super Show Down 2018",
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1aAzYz37RZMumWpB9dPvLImSrUY7IHHqe-8mmS6ckVWc",
 		img:"WWESSD",
