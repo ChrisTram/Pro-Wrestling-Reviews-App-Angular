@@ -582,6 +582,24 @@ export const REVIEWS: Review[] = [
      types: ["NJPW"],
 		},
 		{
+			id:10,
+			name: "NJPW G1 2019 - Intro",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1LHvxxEOpVk5ziPQiNqVDzgBBZwDglNuZtlbKtotHr4s",
+			img:"G129",
+			type:"NJPW",
+			types: ["NJPW", "G1"]
+		},
+		{
+			id:10,
+			name: "NJPW G1 2019",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1PRkznXxQn5OvutUSQIgzx5obDhckNqRO7it7TpvsANk",
+			img:"G129",
+			type:"NJPW",
+			types: ["NJPW", "G1"]
+		},
+		{
 			id: 11.1,
 			name: "NJPW BOSJ 2019",
 			date: 2019,
