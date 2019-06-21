@@ -53,6 +53,12 @@ export class ReviewTypeColorPipe implements PipeTransform {
       case 'PROGRESS':
         color = '#f7e900';
         break;
+      case 'MEX':
+        color = '#EF7707';
+        break;
+      case 'GCW':
+        color = '#9A9A9C';
+        break;  
       default:
         color = '#e0f2f1';
         break;
