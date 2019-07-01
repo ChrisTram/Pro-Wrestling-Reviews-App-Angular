@@ -637,7 +637,7 @@ export const REVIEWS: Review[] = [
 		},
 		{
 			id:6,
-			name: "Indé Eu 2019 : RPW OTT wXw EVOLVE DEFIANT",
+			name: "Indé EU 2019 : RPW OTT wXw EVOLVE DEFIANT",
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/17UnQtK22Daj0ZTRuGyZVGoiD5xIvrJQW9B2C6p3LbW4",
 			img:"INDÉEU",
@@ -823,7 +823,7 @@ export const REVIEWS: Review[] = [
 	},
 	{
 		id:6,
-		name: "Indé Eu 2018 : RPW OTT wXw EVOLVE DEFIANT",
+		name: "Indé EU 2018 : RPW OTT wXw EVOLVE DEFIANT",
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1lVjJbIaMHcaqZILSoxoyQ6tYiK-qlS6zZmgn2SN7GkE",
 		img:"INDÉEU",
