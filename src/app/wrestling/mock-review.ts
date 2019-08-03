@@ -105,6 +105,15 @@ export const REVIEWS: Review[] = [
   type: "WWE PPV",
   types: ["WWE", "PPV"],
 },
+{
+	id:14,
+	name: "WWE Extreme Rules 2019",
+	date: 2019,
+	driveLink:"https://docs.google.com/document/d/1eVmqT3RE0nY-pJmgufvUtqX25CPY05UlymLygnULVDI",
+	img:"WWEER",
+	type:"WWE PPV",
+	types: ["WWE", "PPV"],
+},
 
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2018/////////////////////////////////////
