@@ -44,21 +44,31 @@
   }
 
 }
+
+
 @media only screen and (max-width: 1250px) {
   #Sidepanel {
       display:none;
   }
 }  
 
+
 [type="checkbox"]+span:not(.lever) {
     height: auto;
 }
 
-
-#Sidepanel{
+@media only screen and (max-height: 768px) {
+  #Sidepanel{
     position: fixed;
-    margin-top: 90px;
-}
+    margin-top: 0%;
+  }
+}  
+@media only screen and (min-height: 768px) {
+  #Sidepanel{
+    position: fixed;
+    margin-top: 7%;
+  }
+}  
 
 .page-footer {
   padding-top:0px;
