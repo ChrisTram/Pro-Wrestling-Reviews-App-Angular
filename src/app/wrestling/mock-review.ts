@@ -600,6 +600,15 @@ export const REVIEWS: Review[] = [
      types: ["NJPW"],
 		},
 		{
+			id:8,
+			name: "Joshis 2019 : STARDOM TJP Sendai Girls SEAdLINNNG",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1-ogR4LuVPyNZ0xNsx1BJ5Bp1ZgXUMekih0Oti1NPkTc",
+			img:"JOSHI",
+			type:"JAP",
+			types: ["JAP"],
+		},
+		{
 			id:10,
 			name: "NJPW G1 2019 - Intro",
 			date: 2019,
