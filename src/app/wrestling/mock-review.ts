@@ -42,6 +42,15 @@ export const REVIEWS: Review[] = [
     type: "WWE NXT",
     types: ["WWE", "NXT"],
 },
+{
+    id: 16,
+    name: "NXT TakeOver : Toronto 2",
+    date: 2019,
+    driveLink: "https://docs.google.com/document/d/10q4pj5R-BW3_KiNLWXQNZSEoJEC7lxMTh40RZ3Yukp0",
+    img: "NXTTORONTO",
+    type: "WWE NXT",
+    types: ["WWE", "NXT"],
+},
   {
     id: 17,
     name: "WWE Royal Rumble 2019",
@@ -95,6 +104,15 @@ export const REVIEWS: Review[] = [
   img: "WWEWM35",
   type: "WWE PPV",
   types: ["WWE", "PPV"],
+},
+{
+	id:14,
+	name: "WWE Summerslam 2019",
+	date: 2019,
+	driveLink:"https://docs.google.com/document/d/1bqMQhNOMsPSINTxjqopa3Jvp2CVDtufmosHBH6_K28g",
+	img:"WWESMS",
+	type:"WWE PPV",
+	types: ["WWE", "PPV"],
 },
 {
   id: 19,
