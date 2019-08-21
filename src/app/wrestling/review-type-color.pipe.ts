@@ -40,7 +40,7 @@ export class ReviewTypeColorPipe implements PipeTransform {
         color = '#1b6dc1';
         break;
       case 'JOSHI':
-        color = 'pink lighten-4';
+        color = '#FFB6C1';
         break;
       case 'INDÉ':
         color = '#AA93D1';

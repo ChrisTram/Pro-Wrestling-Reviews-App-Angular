@@ -608,6 +608,7 @@ export const REVIEWS: Review[] = [
 		type:"NJPW",
 		types: ["NJPW"],
 	},
+
   {
      id: 11.1,
      name: "NJPW New Japan Cup 2019",
@@ -624,7 +625,16 @@ export const REVIEWS: Review[] = [
 			driveLink:"https://docs.google.com/document/d/1-ogR4LuVPyNZ0xNsx1BJ5Bp1ZgXUMekih0Oti1NPkTc",
 			img:"JOSHI",
 			type:"JAP",
-			types: ["JAP"],
+			types: ["JAP","JOSHI"],
+		},
+		{
+			id:656,
+			name: "STARDOM 5STAR Grand Prix 2019",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1ceuHFSA7nFJYtxKiqr6r712CBTxzNiH2442UhmTOiQs",
+			img:"5SGP",
+			type:"JAP",
+			types: ["JAP","JOSHI"],
 		},
 		{
 			id:10,
@@ -801,7 +811,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1OVTwKj-SBS1fTo53zDKEIGoK496n2Iqcen77-zSb3I8",
 		img:"JOSHI",
 		type:"JAP",
-		types: ["JAP"],
+		types: ["JAP","JOSHI"],
 	},
 	{
 		id:7,
