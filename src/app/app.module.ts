@@ -28,7 +28,7 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 	declarations: [
 		AppComponent,
 		LoginComponent,
-		PageNotFoundComponent
+		PageNotFoundComponent,
 	],
 	providers: [
 		Title,

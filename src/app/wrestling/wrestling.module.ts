@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { WrestlingRoutingModule } from './wrestling-routing.module';
 
 import { ListReviewComponent } from './list-review.component';
+import { StarReviewComponent } from './star-review.component';
+
 import { DetailReviewComponent } from './detail-review.component';
 import { BorderCardDirective } from './border-card.directive';
 import { ReviewTypeColorPipe } from './review-type-color.pipe';
@@ -25,6 +27,7 @@ import { ReviewSearchComponent } from './search-review.component';
 	declarations: [
 		ListReviewComponent,
 		DetailReviewComponent,
+		StarReviewComponent,
 		LoaderComponent,
 //  	EditReviewComponent,
 //		ReviewFormComponent,
