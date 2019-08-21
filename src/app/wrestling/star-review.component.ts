@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ReviewsService } from './reviews.service';
 import { Review } from './review';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'star-review',
@@ -10,7 +11,7 @@ export class StarReviewComponent implements OnInit {
   starReviews: Review[] = Array();
 
 
-  constructor(private reviewsService : ReviewsService) { }
+  constructor(private router: Router, private reviewsService : ReviewsService) { }
 
   ngOnInit() {
     this.getStarReviews();
@@ -21,6 +22,19 @@ export class StarReviewComponent implements OnInit {
     this.reviewsService.getReview(1).subscribe(review => { this.starReviews.push(review);});
     this.reviewsService.getReview(2).subscribe(review => { this.starReviews.push(review);});
     this.reviewsService.getReview(3).subscribe(review => { this.starReviews.push(review);});
+
+  }
+
+  selectReview(review: Review) {
+    console.log("Vous avez cliqué sur " + review.name);
+    
+    if (review.driveLink == null) {
+      let link =['/reviews', review.name.split(' ').join('_')];
+      this.router.navigate(link);
+    }
+    else {
+      this.reviewsService.gotoDriveLink(review);
+    }
 
   }
 }

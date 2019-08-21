@@ -9,7 +9,7 @@
         <a href="#Chris"><span class="white-text name">Chris, alias Krauhm</span></a>
         <a href="mailto:chris.pwr.contact@gmail.com"><span class="white-text email">chris.pwr.contact@gmail.com</span></a>
       </div></li>
-      
+      <!-- From Group for mobile users -->
       <form class="form-group" id="NewSidepanelForm" >
           <!--<label for="typesOptions">Trier</label>-->
           <div *ngFor="let type of typesOptions">
@@ -23,8 +23,15 @@
               </span>
             </label>
           </div>
-        </form>
-      </ul>
+      </form>
+      <!-- Star Reviews for everybody? -->
+      <blockquote>
+          Reviews du moment
+      </blockquote>
+      <div style="margin-left: 10px; margin-right: 10px;">
+      <star-review></star-review>
+      </div>
+    </ul>
 
 <div class="container">
   <div class="row">

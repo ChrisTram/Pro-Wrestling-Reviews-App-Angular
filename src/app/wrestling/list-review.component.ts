@@ -73,11 +73,11 @@ export class ListReviewComponent {
       backToTop();
     });
     
-    $('#back-to-top').on('click', function(e) {
+    $('#back-to-top').on('click', function(e:any) {
       e.preventDefault();
       $('html,body').animate({
         scrollTop: 0
-      }, 700);
+      }, 0);
     });
   }
 
