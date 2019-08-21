@@ -38,14 +38,19 @@
     }
 
 }
+
+/*Sur PC*/
 @media only screen and (min-width: 1250px) {
   .container {
     width: 100%;
   }
+  #NewSidepanelForm {
+    display:none;
+  }
 
 }
 
-
+/*Sur Téléphone ou minitel*/
 @media only screen and (max-width: 1250px) {
   #Sidepanel {
       display:none;

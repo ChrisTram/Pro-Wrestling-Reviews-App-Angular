@@ -1,3 +1,31 @@
+  <!-- New Sidepanel -->
+
+  <ul id="slide-out" class="sidenav">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="assets/background.png">
+        </div>
+        <a href="#user"><img class="circle" src="assets/me.png"></a>
+        <a href="#name"><span class="white-text name">Chris, alias Krauhm</span></a>
+        <a href="#email"><span class="white-text email">chris.pwr.contact@gmail.com</span></a>
+      </div></li>
+      
+      <form class="form-group" id="NewSidepanelForm" >
+          <!--<label for="typesOptions">Trier</label>-->
+          <div *ngFor="let type of typesOptions">
+            <label class="filter-list__itemLabel">
+              <input type="checkbox" class="filled-in" [value]="type" style="position: relative"
+                [checked]="isCheck(type)" (change)="selectType($event, type)" />
+              <span [attr.for]="type">
+                <div class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">
+                  {{ type }}
+                </div>
+              </span>
+            </label>
+          </div>
+        </form>
+      </ul>
+
 <div class="container">
   <div class="row">
 
@@ -19,9 +47,15 @@
           </div>
 
         </form>
+        
 
         <a (click)='reset()' style="margin-top:2%" class="waves-effect waves-light btn">Annuler tri</a>
+        <div class="collection"></div>
       </div>
+    </div>
+ 
+    <div class="fixed-action-btn">
+    <a (click)='reset()' data-target="slide-out" class="sidenav-trigger waves-effect waves-light btn">Contact</a>
     </div>
 
     <!-- Coeur -->

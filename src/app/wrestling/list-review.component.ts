@@ -43,6 +43,7 @@ export class ListReviewComponent {
     //collapsible animations
     $(document).ready(function(){
       $('.collapsible').collapsible();
+      $('.sidenav').sidenav();
     });
     //Removing sidebar depending of screen size and changing col attributes
     $(window).on('resize', function() {
