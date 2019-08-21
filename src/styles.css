@@ -83,11 +83,16 @@
   background-color: #009688 !important;
 }
 
-/*On déplace les boutons d'action au dessus du bon bouton*/
-.fixed-action-btn ul {
-  left: 55px;
+#Buttonspanel {
+
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
 }
 
 #back-to-top {
-    margin-right: 5px;
+    margin-right: 60px;
 }
