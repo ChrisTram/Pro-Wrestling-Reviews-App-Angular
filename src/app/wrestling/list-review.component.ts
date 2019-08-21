@@ -67,8 +67,6 @@ export class ListReviewComponent {
   getReviews(sortProperty:string) : void {
     this.reviewsService.getReviews()
     .subscribe(reviews => this.reviews = reviews.sort(this.reviewsService.dynamicSort(sortProperty)));
-    //Affichage de la méthode de trie
-    console.log("le tableau trié : ", this.reviews);
     console.log("la propriété de trie : ", sortProperty);
   }
 

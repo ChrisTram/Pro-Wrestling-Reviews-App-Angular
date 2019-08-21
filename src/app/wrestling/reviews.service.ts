@@ -74,6 +74,7 @@ export class ReviewsService {
       catchError(this.handleError<Review>(`getReview id=${id}`))
     );
   }
+  
   getReviewByName(name: string): Observable<Review> {
     const url = `${this.reviewsUrl}/?name=${name}`;
 

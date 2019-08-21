@@ -1,3 +1,7 @@
+
+<div *ngFor='let review of starReviews; let i = index'>
+<div *ngIf="review" class="col s12 m4">
+
 <div class="card horizontal pointer" [@openClose]="in" (click)="selectReview(review)" wrestlingBorderCard>
   <div class="card-image">
     <img src="{{'assets/'+ review.img + '.png'}}" alt="image">
@@ -8,8 +12,11 @@
 
       <p>
         <small>{{review.date}}</small>
+      </p>  
       <span *ngFor='let type of review.types' class='chip'
         [ngStyle]="{'background-color':  type | reviewTypeColor }">{{type}}</span>
     </div>
   </div>
+</div>
+</div>
 </div>
