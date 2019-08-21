@@ -40,12 +40,13 @@ export class ListReviewComponent {
 
    ngOnInit() : void {
 
-    //collapsible animations
+    //jquery animations
     $(document).ready(function(){
       $('.collapsible').collapsible();
       $('.sidenav').sidenav();
+      $('.fixed-action-btn').floatingActionButton();
     });
-    //Removing sidebar depending of screen size and changing col attributes
+    //changing col attributes depending of screen size (removing sidebar/fixedbutton in styles.css) 
     $(window).on('resize', function() {
       if($(window).width() < 1250) {
           $('#Maincontainer').addClass('s12');
@@ -57,6 +58,28 @@ export class ListReviewComponent {
         $('#Maincontainer').removeClass('s12');
       }
   })
+  if ($('#back-to-top').length) {
+    var scrollTrigger = 100, // px
+      backToTop = function() {
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > scrollTrigger) {
+          $('#back-to-top').removeClass('scale-out');
+        } else {
+          $('#back-to-top').addClass('scale-out');
+        }
+      };
+    backToTop();
+    $(window).on('scroll', function() {
+      backToTop();
+    });
+    
+    $('#back-to-top').on('click', function(e) {
+      e.preventDefault();
+      $('html,body').animate({
+        scrollTop: 0
+      }, 700);
+    });
+  }
 
     this.getReviews("name"); //Par défaut, trie par nom
     this.typesOptions = this.reviewsService.getReviewTypes();

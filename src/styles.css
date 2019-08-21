@@ -55,6 +55,9 @@
   #Sidepanel {
       display:none;
   }
+  #Buttonspanel {
+    display:none;
+  }
 }  
 
 
@@ -78,4 +81,13 @@
 .page-footer {
   padding-top:0px;
   background-color: #009688 !important;
+}
+
+/*On déplace les boutons d'action au dessus du bon bouton*/
+.fixed-action-btn ul {
+  left: 55px;
+}
+
+#back-to-top {
+    margin-right: 5px;
 }
