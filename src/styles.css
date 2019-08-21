@@ -47,6 +47,9 @@
   #NewSidepanelForm {
     display:none;
   }
+  #Mobbuttonpanel {
+    display:none;
+  }
 
 }
 
@@ -93,6 +96,19 @@
     z-index: 997;
 }
 
+#Mobbuttonpanel {
+
+  position: fixed;
+  right: 23px;
+  bottom: 23px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 997;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 #back-to-top {
     margin-right: 60px;
 }
