@@ -17,7 +17,7 @@
               <input type="checkbox" class="filled-in" [value]="type" style="position: relative"
                 [checked]="isCheck(type)" (change)="selectType($event, type)" />
               <span [attr.for]="type">
-                <div class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">
+                <div class='chip z-depth-2' [ngStyle]="{'background-color':  type | reviewTypeColor }">
                   {{ type }}
                 </div>
               </span>
@@ -36,9 +36,9 @@
 <div class="container">
   <div class="row">
 
-    <!-- Sidepanel -->
-    <div id="Sidepanel" class="col s12 m2">
-      <div class="card-panel" style="padding-left: 17px; padding-right: 17px;">
+    <!-- Original Form Group Sidepanel -->
+    <div id="Sidepanel" class="col s12 m2 ">
+      <div class="card-panel z-depth-2" style="padding-left: 17px; padding-right: 17px;">
         <form class="form-group">
           <!--<label for="typesOptions">Trier</label>-->
           <div *ngFor="let type of typesOptions">
@@ -46,7 +46,7 @@
               <input type="checkbox" class="filled-in" [value]="type" style="position: relative"
                 [checked]="isCheck(type)" (change)="selectType($event, type)" />
               <span [attr.for]="type">
-                <div class='chip' [ngStyle]="{'background-color':  type | reviewTypeColor }">
+                <div class='chip z-depth-2' [ngStyle]="{'background-color':  type | reviewTypeColor }">
                   {{ type }}
                 </div>
               </span>
@@ -56,13 +56,13 @@
         </form>
         
 
-        <a (click)='reset()' style="margin-top:2%" class="waves-effect waves-light btn">Annuler tri</a>
+        <a (click)='reset()' style="margin-top:2%" class="waves-effect waves-light btn z-depth-2">Annuler tri</a>
       </div>
     </div>
 
     <!-- Floating Button for Mobile -->
     <div id="Mobbuttonpanel">
-        <a class="btn-floating btn-large teal waves-effect waves-light sidenav-trigger "data-target="slide-out">
+        <a class="btn-floating btn-large teal waves-effect waves-light sidenav-trigger  z-depth-2"data-target="slide-out">
             <i class="large material-icons">menu</i>
         </a>
     </div>
@@ -70,19 +70,19 @@
     <div class="" id="Buttonspanel">
       <!-- Back-to-top -->
       <div>
-        <a id="back-to-top" class="btn-floating btn-large teal scale-transition waves-effect waves-light" >
+        <a id="back-to-top" class="btn-floating btn-large teal scale-transition waves-effect waves-light z-depth-2" >
             <i class="large material-icons">keyboard_arrow_up</i>
           </a>
           </div>
       <!-- Action -->
       <div class = "fixed-action-btn">
-        <a class="btn-floating btn-large teal waves-effect waves-light ">
+        <a class="btn-floating btn-large teal waves-effect waves-light  z-depth-2">
             <i class="large material-icons">add</i>
         </a>
           <ul>
-            <li><a class="btn-floating red sidenav-trigger waves-effect waves-light" data-target="slide-out"><i class="material-icons">menu</i></a></li>
-            <li><a class="btn-floating yellow darken-1 waves-effect waves-light"><i class="material-icons">format_quote</i></a></li>
-            <li><a href="mailto:chris.pwr.contact@gmail.com" class="btn-floating blue waves-effect waves-light"><i class="material-icons">mail_outline</i></a></li>
+            <li><a class="btn-floating red sidenav-trigger waves-effect waves-light z-depth-2" data-target="slide-out"><i class="material-icons">menu</i></a></li>
+            <li><a class="btn-floating yellow darken-1 waves-effect waves-light z-depth-2"><i class="material-icons">format_quote</i></a></li>
+            <li><a href="mailto:chris.pwr.contact@gmail.com" class="btn-floating blue waves-effect waves-light z-depth-2"><i class="material-icons">mail_outline</i></a></li>
           </ul>
         </div>
 
@@ -101,8 +101,8 @@
       <!-- About Me -->
       <ul class="collapsible popout">
 
-        <li>
-          <div class="collapsible-header waves-effect waves-green"><i class="material-icons">whatshot</i>A propos de moi
+        <li class>
+          <div class="collapsible-header waves-effect waves-green " ><i class="material-icons">whatshot</i>A propos de moi
           </div>
           <div class="collapsible-body"><span>Salut toi, et bienvenue sur mon espace critique. <br><br>
 
@@ -120,7 +120,7 @@
               <br><br>
             </span></div>
         </li>
-        <li>
+        <li class>
           <div class="collapsible-header waves-effect waves-green"><i
               class="material-icons">filter_drama</i>Actuellement ?</div>
           <div class="collapsible-body" ><span>[MAJ : 13/08/2019]<br><br>
@@ -140,7 +140,7 @@
       <!-- Reviews -->
       <div *ngFor='let review of reviews; let i = index'>
         <div *ngIf="checkTypes(review.type)" class="col s12 m4">
-          <div class="card horizontal pointer" [@openClose]="in" (click)="selectReview(review)" wrestlingBorderCard>
+          <div class="card horizontal pointer z-depth-2" [@openClose]="in" (click)="selectReview(review)" wrestlingBorderCard>
             <div class="card-image">
               <img src="{{'assets/'+ review.img + '.png'}}" alt="image">
             </div>
@@ -164,7 +164,7 @@
                 </p>
               </ng-template>
             -->
-                <span *ngFor='let type of review.types' class='chip'
+                <span *ngFor='let type of review.types' class='chip z-depth-2'
                   [ngStyle]="{'background-color':  type | reviewTypeColor }">{{type}}</span>
               </div>
             </div>
