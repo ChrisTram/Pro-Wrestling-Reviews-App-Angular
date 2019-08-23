@@ -11,7 +11,7 @@ export class ReviewTypeColorPipe implements PipeTransform {
 
     switch (type) {
       case 'NJPW':
-        color = '#ff160b';
+        color = '#d50000';
         break;
       case 'BOSJ':
       case 'G1' :
@@ -37,7 +37,7 @@ export class ReviewTypeColorPipe implements PipeTransform {
         color = '#FAC759';
         break;
       case 'IMPACT':
-        color = '#1b6dc1';
+        color = '#039be5';
         break;
       case 'JOSHI':
         color = '#FFB6C1';
@@ -58,6 +58,12 @@ export class ReviewTypeColorPipe implements PipeTransform {
         break;
       case 'GCW':
         color = '#9A9A9C';
+        break;  
+      case 'USA':
+        color = "#039be5";
+        break;  
+      case 'EUROPE':
+        color = "#00bfa5";
         break;  
       default:
         color = '#e0f2f1';
