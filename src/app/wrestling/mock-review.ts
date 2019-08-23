@@ -596,7 +596,7 @@ export const REVIEWS: Review[] = [
 		date: 2019,
 		driveLink:"https://docs.google.com/document/d/10MT2uqplD2zaOPSKKqX4BTdpAmmAgzgwzFclMLWa5hU",
 		img:"AEW",
-		type:"AEW",
+		type:"USA",
 		types: ["AEW"],
 	},
 	{
@@ -625,7 +625,7 @@ export const REVIEWS: Review[] = [
 			driveLink:"https://docs.google.com/document/d/1-ogR4LuVPyNZ0xNsx1BJ5Bp1ZgXUMekih0Oti1NPkTc",
 			img:"JOSHI",
 			type:"JAP",
-			types: ["JAP","JOSHI"],
+			types: ["JOSHI"],
 		},
 		{
 			id:2,
@@ -634,7 +634,7 @@ export const REVIEWS: Review[] = [
 			driveLink:"https://docs.google.com/document/d/1ceuHFSA7nFJYtxKiqr6r712CBTxzNiH2442UhmTOiQs",
 			img:"5SGP",
 			type:"JAP",
-			types: ["JAP","JOSHI"],
+			types: ["JOSHI"],
 		},
 		{
 			id:10,
@@ -669,7 +669,7 @@ export const REVIEWS: Review[] = [
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1nW0yrLFZdGHBuy8-porrKkjRRLRUfaYtuBYpC61dEpk",
 			img:"ROH",
-			type:"ROH",
+			type:"USA",
 			types: ["ROH"],
 		},
 		{
@@ -678,7 +678,7 @@ export const REVIEWS: Review[] = [
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1ijLwa7oK7yzz2Yrjbnx7_7jq4inBDn6n9ETQLlEItmw",
 			img:"INDÉ",
-			type:"INDÉ",
+			type:"USA",
 			types: ["INDÉ"],
 		},
 		{
@@ -687,7 +687,7 @@ export const REVIEWS: Review[] = [
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/17UnQtK22Daj0ZTRuGyZVGoiD5xIvrJQW9B2C6p3LbW4",
 			img:"INDÉEU",
-			type:"INDÉ",
+			type:"EUROPE",
 			types: ["INDÉ"],
 		},
 		{
@@ -696,7 +696,7 @@ export const REVIEWS: Review[] = [
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/19ORX9y3iBSR56kEe9uEm5rmB4OTGWwKImJiU5kiBSTs",
 			img:"PROGRESS",
-			type:"INDÉ",
+			type:"EUROPE",
 			types: ["INDÉ", "PROGRESS"],
 		},
 		{
@@ -705,7 +705,7 @@ export const REVIEWS: Review[] = [
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1TJiZZzkKe_LymCinkkIsPCmjDKsvkpq4DA55lc1zDx4",
 			img:"GCW",
-			type:"INDÉ",
+			type:"USA",
 			types: ["INDÉ","GCW"],
 		},
 		{
@@ -741,7 +741,7 @@ export const REVIEWS: Review[] = [
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1d49a9lkHsQeyudRiymU0m_II65Rd9JwDPdfaBDQsquU",
 			img:"PWG",
-			type:"PWG",
+			type:"USA",
 			types: ["PWG"],
 		},
 	////////////////////////////////////////////////////////////////////////////////////
@@ -792,7 +792,7 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1MmrjdV7u3C889Q208JQRAs2KPhG8u1wLEkX2xGdqdZQ/edit",
 		img:"IMPACT",
-		type:"IMPACT",
+		type:"USA",
 		types: ["IMPACT"],
 	},
 	{
@@ -811,7 +811,7 @@ export const REVIEWS: Review[] = [
 		driveLink:"https://docs.google.com/document/d/1OVTwKj-SBS1fTo53zDKEIGoK496n2Iqcen77-zSb3I8",
 		img:"JOSHI",
 		type:"JAP",
-		types: ["JAP","JOSHI"],
+		types: ["JOSHI"],
 	},
 	{
 		id:7,
@@ -819,7 +819,7 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1xyJzOJQbHiaBjcT3-Q3oOthE5gJuLkmy9dcd25yS3Do/edit",
 		img:"PROGRESS",
-		type:"INDÉ",
+		type:"EUROPE",
 		types: ["INDÉ", "PROGRESS"],
 	},
 	{
@@ -828,7 +828,7 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1uFLYDA4G-CXz-qjODfCgZ_KE5b8XmUlvI07QhVenKgs/edit",
 		img:"ROH",
-		type:"ROH",
+		type:"USA",
 		types: ["ROH"],
 	},
 	{
@@ -837,7 +837,7 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1dw0jrt6UCYQcK3qkt88IC7ZCdb_2ajtr-xG0Q8CeFvI/edit",
 		img:"PWG",
-		type:"PWG",
+		type:"USA",
 		types: ["PWG"],
 	},
 	{
@@ -846,7 +846,7 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1vzqw071zu7jhHtlCruzIJ4xbq3y7D5k7pjspP3wSan8",
 		img:"MEX",
-		type:"INDÉ",
+		type:"MEX",
 		types: ["MEX"],
 	},
 	{
@@ -864,7 +864,7 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1ZjOGVs-pq62lqF-67taJqPyCG152RGPKMqJ7GFE0WXE/edit",
 		img:"INDÉ",
-		type:"INDÉ",
+		type:"USA",
 		types: ["INDÉ"],
 	},
 	{
@@ -873,7 +873,7 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1lVjJbIaMHcaqZILSoxoyQ6tYiK-qlS6zZmgn2SN7GkE",
 		img:"INDÉEU",
-		type:"INDÉ",
+		type:"EUROPE",
 		types: ["INDÉ"],
 	},
 	{
@@ -882,7 +882,7 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1AgVxf3mlt5hPa7JK-AU9ks3xUiObkkqZyYRJsZ6krdU",
 		img:"GCW",
-		type:"INDÉ",
+		type:"USA",
 		types: ["INDÉ","GCW"],
 	},
 	////////////////////////////////////////////////////////////////////////////////////
