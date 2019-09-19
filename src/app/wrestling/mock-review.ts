@@ -133,6 +133,16 @@ export const REVIEWS: Review[] = [
 	types: ["WWE", "PPV"],
 },
 
+{
+	id:14,
+	name: "WWE Clash Of Champions 2019",
+	date: 2019,
+	driveLink:"https://docs.google.com/document/d/1Sc0EtDV9VBQE81iTMe-8Wid_ThVV_dPY99DHUSw7ZpU",
+	img:"WWECOC",
+	type:"WWE PPV",
+	types: ["WWE", "PPV"],
+},
+
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2018/////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
@@ -264,6 +274,7 @@ export const REVIEWS: Review[] = [
 		type:"WWE PPV",
 		types: ["WWE", "PPV"],
 	},
+	
 	{
     id: 16,
     name: "NXT TakeOver : Philadelphia",
