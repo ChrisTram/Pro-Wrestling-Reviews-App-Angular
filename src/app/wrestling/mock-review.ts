@@ -143,6 +143,16 @@ export const REVIEWS: Review[] = [
 	types: ["WWE", "PPV"],
 },
 
+{
+	id:14,
+	name: "WWE Hell In A Cell 2019",
+	date: 2019,
+	driveLink:"https://docs.google.com/document/d/1X231wirmt1mo16HakU5wXaKJZoKAULyiMxaO0sJXRh0",
+	img:"WWEHIAC",
+	type:"WWE PPV",
+	types: ["WWE", "PPV"],
+},
+
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2018/////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
@@ -609,6 +619,15 @@ export const REVIEWS: Review[] = [
 		img:"AEW",
 		type:"USA",
 		types: ["AEW"],
+	},
+	{
+		id:9,
+		name: "IMPACT 2019",
+		date: 2019,
+		driveLink:"tps://docs.google.com/document/d/12jhPll4BYSYAzNWrH8tI3rwEgpcGAuDHq8QBkbapvKI",
+		img:"IMPACT",
+		type:"USA",
+		types: ["IMPACT"],
 	},
 	{
 		id:11.1,
