@@ -554,7 +554,7 @@ export const REVIEWS: Review[] = [
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
 	{
-		id:1,
+		id:11,
 		name: "4* 2019",
 		date: 2019,
 		driveLink:"https://docs.google.com/document/d/1smdDhBc_9jAQiACMtjM2QWOJAVKDfWTIa61euKsdj0I",
@@ -667,7 +667,7 @@ export const REVIEWS: Review[] = [
 			types: ["JOSHI"],
 		},
 		{
-			id:2,
+			id:22,
 			name: "STARDOM 5STAR Grand Prix 2019",
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1ceuHFSA7nFJYtxKiqr6r712CBTxzNiH2442UhmTOiQs",
@@ -685,7 +685,7 @@ export const REVIEWS: Review[] = [
 			types: ["NJPW", "G1"]
 		},
 		{
-			id:3,
+			id:33,
 			name: "NJPW G1 2019",
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1PRkznXxQn5OvutUSQIgzx5obDhckNqRO7it7TpvsANk",
@@ -789,7 +789,7 @@ export const REVIEWS: Review[] = [
 
 
 	{
-		id:11,
+		id:101,
 		name: "NJPW 2018",
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1WlZ_5zcflboPzuKFzMWMruOetdFdbRRuo6S0Sy4WrAg/edit",
