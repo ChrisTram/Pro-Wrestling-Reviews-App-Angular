@@ -706,7 +706,7 @@ export const REVIEWS: Review[] = [
 			id:22,
 			name: "STARDOM Goddesses Of Stardom 2019",
 			date: 2019,
-			driveLink:"https://docs.google.com/document/d/1ceuHFSA7nFJYtxKiqr6r712CBTxzNiH2442UhmTOiQs",
+			driveLink:"https://docs.google.com/document/d/1SI6PwH8wWZAhzGdN-8c__Ud7GZSNXSlQ6_UgpjFZRgU",
 			img:"STARDOM",
 			type:"JAP",
 			types: ["JOSHI", "STARDOM"],
