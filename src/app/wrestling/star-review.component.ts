@@ -19,9 +19,9 @@ export class StarReviewComponent implements OnInit {
 
   getStarReviews() : void {
 
-    this.reviewsService.getReview(1).subscribe(review => { this.starReviews.push(review);});
-    this.reviewsService.getReview(2).subscribe(review => { this.starReviews.push(review);});
-    this.reviewsService.getReview(3).subscribe(review => { this.starReviews.push(review);});
+    this.reviewsService.getReview(11).subscribe(review => { this.starReviews.push(review);});
+    this.reviewsService.getReview(22).subscribe(review => { this.starReviews.push(review);});
+    this.reviewsService.getReview(33).subscribe(review => { this.starReviews.push(review);});
 
   }
 

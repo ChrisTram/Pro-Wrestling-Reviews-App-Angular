@@ -4,6 +4,15 @@ export const REVIEWS: Review[] = [
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2019/////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
+	{
+		id: 15,
+		name: "NXT 2019",
+		date: 2019,
+		driveLink: "https://docs.google.com/document/d/1B1jp9YCTYEgLlmF6_Vev5VoB7ZbZbEngYw0jN1m0Wco",
+		img: "NXT",
+		type: "WWE NXT",
+		types: ["WWE", "NXT"],
+	  },
   {
     id: 15,
     name: "NXT TakeOver UK : Blackpool",
@@ -152,6 +161,15 @@ export const REVIEWS: Review[] = [
 	type:"WWE PPV",
 	types: ["WWE", "PPV"],
 },
+{
+	id:14,
+	name: "WWE Crown Jewel 2019",
+	date: 2019,
+	driveLink:"https://docs.google.com/document/d/1LaXdEEiaA3d4X3C4bPHUpbMgmVaozRetV-3JdSsNUWs",
+	img:"WWECJ",
+	type:"WWE PPV",
+	types: ["WWE", "PPV"],
+},
 
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2018/////////////////////////////////////
@@ -164,6 +182,15 @@ export const REVIEWS: Review[] = [
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1qUQkxf7u_jQBItkxgw89fUwjJQzgABoaAJnFFo4mZTs/edit?usp=sharing",
 		img:"WWETLC",
+		type:"WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id:14,
+		name: "WWE Crown Jewel 2018",
+		date: 2018,
+		driveLink:"https://docs.google.com/document/d/16KGnac243uAeEpdDGqsnZgTW2l1evAtI",
+		img:"WWECJ",
 		type:"WWE PPV",
 		types: ["WWE", "PPV"],
 	},
@@ -545,7 +572,7 @@ export const REVIEWS: Review[] = [
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
 	{
-		id:1,
+		id:11,
 		name: "4* 2019",
 		date: 2019,
 		driveLink:"https://docs.google.com/document/d/1smdDhBc_9jAQiACMtjM2QWOJAVKDfWTIa61euKsdj0I",
@@ -621,6 +648,15 @@ export const REVIEWS: Review[] = [
 		types: ["AEW"],
 	},
 	{
+		id:55,
+		name: "Mex 2019 : CMLL LU AAA",
+		date: 2019,
+		driveLink:"https://docs.google.com/document/d/1Z0EVucu4wud7fAxxF986VEAFtLLh8Nfxoodno7vhXIc",
+		img:"MEX",
+		type:"MEX",
+		types: ["MEX"],
+	},
+	{
 		id:9,
 		name: "IMPACT 2019",
 		date: 2019,
@@ -658,13 +694,22 @@ export const REVIEWS: Review[] = [
 			types: ["JOSHI"],
 		},
 		{
-			id:2,
+			id:22,
 			name: "STARDOM 5STAR Grand Prix 2019",
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1ceuHFSA7nFJYtxKiqr6r712CBTxzNiH2442UhmTOiQs",
 			img:"5SGP",
 			type:"JAP",
-			types: ["JOSHI"],
+			types: ["JOSHI", "STARDOM"],
+		},
+		{
+			id:22,
+			name: "STARDOM Goddesses Of Stardom 2019",
+			date: 2019,
+			driveLink:"https://docs.google.com/document/d/1SI6PwH8wWZAhzGdN-8c__Ud7GZSNXSlQ6_UgpjFZRgU",
+			img:"STARDOM",
+			type:"JAP",
+			types: ["JOSHI", "STARDOM"],
 		},
 		{
 			id:10,
@@ -676,7 +721,7 @@ export const REVIEWS: Review[] = [
 			types: ["NJPW", "G1"]
 		},
 		{
-			id:3,
+			id:33,
 			name: "NJPW G1 2019",
 			date: 2019,
 			driveLink:"https://docs.google.com/document/d/1PRkznXxQn5OvutUSQIgzx5obDhckNqRO7it7TpvsANk",
@@ -780,7 +825,7 @@ export const REVIEWS: Review[] = [
 
 
 	{
-		id:11,
+		id:101,
 		name: "NJPW 2018",
 		date: 2018,
 		driveLink:"https://docs.google.com/document/d/1WlZ_5zcflboPzuKFzMWMruOetdFdbRRuo6S0Sy4WrAg/edit",
