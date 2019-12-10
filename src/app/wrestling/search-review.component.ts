@@ -4,8 +4,6 @@ import { Router } from '@angular/router';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { Observable } from 'rxjs/Observable';
 
-import { of } from "rxjs";
-
 import { ReviewsService } from './reviews.service';
 import { Review } from './review';
 import { Subject } from 'rxjs';

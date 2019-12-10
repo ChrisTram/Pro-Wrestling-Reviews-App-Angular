@@ -1,7 +1,7 @@
 import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
 @Directive({
-  selector: '[wrestlingBorderCard]' 
+    selector: '[wrestlingBorderCard]'
 })
 export class BorderCardDirective {
 
@@ -10,13 +10,13 @@ export class BorderCardDirective {
     private defaultHeight: number = 180;
 
 
-	constructor(private el: ElementRef) {
-		this.setBorder(this.initialColor);
-		this.setHeight(this.defaultHeight);
+    constructor(private el: ElementRef) {
+        this.setBorder(this.initialColor);
+        this.setHeight(this.defaultHeight);
     }
 
     @Input('wrestlingBorderCard') borderColor: string;
-    
+
     @HostListener('mouseenter') onMouseEnter() {
         this.setBorder(this.borderColor || this.defaultColor);
     }
@@ -24,12 +24,12 @@ export class BorderCardDirective {
         this.setBorder(this.initialColor);
     }
 
-	private setBorder(color: string) {
-		let border = 'solid 4px ' + color;
-		this.el.nativeElement.style.border = border;
-	}
+    private setBorder(color: string) {
+        let border = 'solid 4px ' + color;
+        this.el.nativeElement.style.border = border;
+    }
 
-	private setHeight(height: number) {
-		this.el.nativeElement.style.height = height + 'px';
-	}
+    private setHeight(height: number) {
+        this.el.nativeElement.style.height = height + 'px';
+    }
 }

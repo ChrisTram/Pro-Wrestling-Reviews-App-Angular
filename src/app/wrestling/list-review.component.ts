@@ -1,16 +1,10 @@
 import { Component } from '@angular/core';
-import { OnInit } from '@angular/core';
 import { Review } from './review';
 import { Router } from '@angular/router';
 import { ReviewsService } from './reviews.service';
-import { animation, animate, trigger, state, style, transition  } from '@angular/animations';
-import { removeTrailingSlash } from 'angular-in-memory-web-api';
-import { bufferToggle } from 'rxjs/operators';
-import { Title } from '@angular/platform-browser';
+import { animate, trigger, state, style, transition  } from '@angular/animations';
 import { AppComponent } from '../app.component';
 declare var $:any;
-
-
 
 @Component({
   selector: 'list-review',
@@ -18,7 +12,6 @@ declare var $:any;
   animations: [
     trigger('openClose', [
       state('in', style({opacity: 1})), //le "resting" state
-
       transition(':enter', [
         style({opacity: 0}),
         animate(600 )
@@ -36,8 +29,7 @@ export class ListReviewComponent {
 
   constructor(private router: Router, private reviewsService : ReviewsService, private titleService : AppComponent) { }
 
-
-
+  
    ngOnInit() : void {
 
     //jquery animations

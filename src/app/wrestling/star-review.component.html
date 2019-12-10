@@ -1,22 +1,22 @@
-
 <div *ngFor='let review of starReviews; let i = index'>
-<div *ngIf="review" class="col s12 m4">
+  <div *ngIf="review" class="col s12 m4">
 
-<div class="card horizontal pointer  z-depth-2" [@openClose]="in" (click)="selectReview(review)" wrestlingBorderCard>
-  <div class="card-image">
-    <img src="{{'assets/'+ review.img + '.png'}}" alt="image">
-  </div>
-  <div class="card-stacked">
-    <div class="card-content" style="padding-top: 15px;">
-      <p>{{ review.name }}</p>
+    <div class="card horizontal pointer  z-depth-2" [@openClose]="in" (click)="selectReview(review)"
+      wrestlingBorderCard>
+      <div class="card-image">
+        <img src="{{'assets/'+ review.img + '.png'}}" alt="image">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content" style="padding-top: 15px;">
+          <p>{{ review.name }}</p>
 
-      <p>
-        <small>{{review.date}}</small>
-      </p>  
-      <span *ngFor='let type of review.types' class='chip z-depth-2'
-        [ngStyle]="{'background-color':  type | reviewTypeColor }">{{type}}</span>
+          <p>
+            <small>{{review.date}}</small>
+          </p>
+          <span *ngFor='let type of review.types' class='chip z-depth-2'
+            [ngStyle]="{'background-color':  type | reviewTypeColor }">{{type}}</span>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
 </div>

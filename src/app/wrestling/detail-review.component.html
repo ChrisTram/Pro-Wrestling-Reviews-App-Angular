@@ -1,9 +1,9 @@
 <div *ngIf="review" class="row">
-    <div class="col s12 m8 offset-m2">
+  <div class="col s12 m8 offset-m2">
     <h2 class="header center">{{ review.name }}</h2>
     <div class="card horizontal hoverable">
       <div class="card-image">
-          <img src="{{'assets/'+ review.types[0] + '.png'}}" alt="image">
+        <img src="{{'assets/'+ review.types[0] + '.png'}}" alt="image">
       </div>
       <div class="card-stacked">
         <div class="card-content">
@@ -41,8 +41,8 @@
         </div>
       </div>
     </div>
-    </div>
-    </div>
-    <h4 *ngIf ='!review' class='center'>
-      <wrestling-loader></wrestling-loader>
-    </h4>>
+  </div>
+</div>
+<h4 *ngIf='!review' class='center'>
+  <wrestling-loader></wrestling-loader>
+</h4>>

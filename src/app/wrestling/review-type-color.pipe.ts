@@ -3,7 +3,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 /*
  *   {{ review.type | reviewTypeColor }}
 */
-@Pipe({name: 'reviewTypeColor'})
+@Pipe({ name: 'reviewTypeColor' })
 export class ReviewTypeColorPipe implements PipeTransform {
   transform(type: string): string {
 
@@ -14,12 +14,12 @@ export class ReviewTypeColorPipe implements PipeTransform {
         color = '#d50000';
         break;
       case 'BOSJ':
-      case 'G1' :
+      case 'G1':
         color = '#FFD810';
-        break;  
+        break;
       case 'AEW':
         color = "#B89F45";
-        break;  
+        break;
       case 'WWE':
       case 'WWE PPV':
         color = '#90caf9';
@@ -28,7 +28,7 @@ export class ReviewTypeColorPipe implements PipeTransform {
         color = '#cd9a00';
         break;
       case 'JAP':
-        color="#FF0505";
+        color = "#FF0505";
         break;
       case 'ROH':
         color = '#949494';
@@ -58,13 +58,13 @@ export class ReviewTypeColorPipe implements PipeTransform {
         break;
       case 'GCW':
         color = '#9A9A9C';
-        break;  
+        break;
       case 'USA':
         color = "#039be5";
-        break;  
+        break;
       case 'EUROPE':
         color = "#00bfa5";
-        break;  
+        break;
       default:
         color = '#e0f2f1';
         break;

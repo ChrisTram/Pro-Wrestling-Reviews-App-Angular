@@ -1,19 +1,18 @@
 <div class="row">
-    <div class="col s12 m6 offset-m3">
-      <div class="card z-depth-2">
-        <div class="card-content">
-          <div class="input-field">  
-            <textarea #searchBox (keyup)="search(searchBox.value)" id="textarea1" class="materialize-textarea"></textarea>
-            <label for="textarea1">Rechercher une review par thème (ex : NJPW 2019, G1, 4* stars...)</label>
-          </div>
-  
-          <div class="collection">
-            <a *ngFor="let review of reviews$ | async"
-              (click)="gotoDetail(review)" class="collection-item pointer">
-              {{ review.name }}
-            </a>
-          </div>
+  <div class="col s12 m6 offset-m3">
+    <div class="card z-depth-2">
+      <div class="card-content">
+        <div class="input-field">
+          <textarea #searchBox (keyup)="search(searchBox.value)" id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Rechercher une review par thème (ex : NJPW 2019, G1, 4* stars...)</label>
+        </div>
+
+        <div class="collection">
+          <a *ngFor="let review of reviews$ | async" (click)="gotoDetail(review)" class="collection-item pointer">
+            {{ review.name }}
+          </a>
         </div>
       </div>
     </div>
   </div>
+</div>

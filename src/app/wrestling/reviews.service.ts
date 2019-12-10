@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Review } from './review';
-import { REVIEWS } from './mock-review';
-
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { catchError, map, tap } from 'rxjs/operators';

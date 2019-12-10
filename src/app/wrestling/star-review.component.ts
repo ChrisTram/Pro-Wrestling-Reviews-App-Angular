@@ -11,25 +11,25 @@ export class StarReviewComponent implements OnInit {
   starReviews: Review[] = Array();
 
 
-  constructor(private router: Router, private reviewsService : ReviewsService) { }
+  constructor(private router: Router, private reviewsService: ReviewsService) { }
 
   ngOnInit() {
     this.getStarReviews();
   }
 
-  getStarReviews() : void {
+  getStarReviews(): void {
 
-    this.reviewsService.getReview(11).subscribe(review => { this.starReviews.push(review);});
-    this.reviewsService.getReview(22).subscribe(review => { this.starReviews.push(review);});
-    this.reviewsService.getReview(33).subscribe(review => { this.starReviews.push(review);});
+    this.reviewsService.getReview(11).subscribe(review => { this.starReviews.push(review); });
+    this.reviewsService.getReview(22).subscribe(review => { this.starReviews.push(review); });
+    this.reviewsService.getReview(33).subscribe(review => { this.starReviews.push(review); });
 
   }
 
   selectReview(review: Review) {
     console.log("Vous avez cliqué sur " + review.name);
-    
+
     if (review.driveLink == null) {
-      let link =['/reviews', review.name.split(' ').join('_')];
+      let link = ['/reviews', review.name.split(' ').join('_')];
       this.router.navigate(link);
     }
     else {
