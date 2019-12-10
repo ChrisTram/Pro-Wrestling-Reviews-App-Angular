@@ -52,7 +52,7 @@ export const REVIEWS: Review[] = [
 	},
 	{
 		id: 202006,
-		name: "Indé US 2020 : EVOLVE BEYOND IWA CZW",
+		name: "Indé US 2020 : EVOLVE BEYOND CZW",
 		date: 2020,
 		driveLink: "https://docs.google.com/document/d/1__ye0TweHUWoin8VSAsqEix1QYcAhpvfXPyQz1W9mcQ",
 		img: "INDÉ",
@@ -741,7 +741,7 @@ export const REVIEWS: Review[] = [
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
 	{
-		id: 11,
+		id: 11111,
 		name: "4* 2020",
 		date: 2020,
 		driveLink: "https://docs.google.com/document/d/1M8CET2QF0GTdoDItxuMeGItVPrECbS3OjdJrgTXiSac",
