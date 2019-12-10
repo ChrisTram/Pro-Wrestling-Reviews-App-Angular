@@ -5,16 +5,166 @@ export const REVIEWS: Review[] = [
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////MIX 2020/////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
-
-
+	{
+		id: 202001,
+		name: "AEW 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/17d7Feh_CZedl6xhTuDwsQ6uy87RxIdgRtgZUmrI536c",
+		img: "AEW",
+		type: "USA",
+		types: ["AEW"],
+	},
+	{
+		id: 202002,
+		name: "AJPW 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1RtuO_VMAwTPL84AeCsgYQjBozqtOVixvZpoantT8NJ4",
+		img: "AJPW",
+		type: "JAP",
+		types: ["JAP", "AJPW"],
+	},
+	{
+		id: 202003,
+		name: "DDT 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/19bxbRa86rjRmGrWIQsBsAMqTX935ANjcodfz5U0yuCw",
+		img: "DDT",
+		type: "JAP",
+		types: ["JAP", "DDT"],
+	},
+	{
+		id: 202004,
+		name: "GCW 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1O-PrzXmfeFZEbHYlmupm7afw3uuEd6IGL2xZasbrStY",
+		img: "GCW",
+		type: "USA",
+		types: ["INDÉ", "GCW"],
+	},
+	{
+		id: 202005,
+		name: "IMPACT 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1YKH8NJhEOwgb9F_N8LPUlbiPOIiR99ecndEV9WNgW3I",
+		img: "IMPACT",
+		type: "USA",
+		types: ["IMPACT"],
+	},
+	{
+		id: 202006,
+		name: "Indé US 2020 : EVOLVE BEYOND IWA CZW",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1__ye0TweHUWoin8VSAsqEix1QYcAhpvfXPyQz1W9mcQ",
+		img: "INDÉ",
+		type: "USA",
+		types: ["INDÉ"],
+	},
+	{
+		id: 202007,
+		name: "Indé EU 2020 : RPW OTT wXw EVOLVE",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1OB4G56isAIsc3VpycI-TXN9f5Mo2t0rw88Ckjvn9pvI",
+		img: "INDÉEU",
+		type: "EUROPE",
+		types: ["INDÉ"],
+	},
+	{
+		id: 202008,
+		name: "Jap 2020 : NOAH Dragon Gate BJW",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1tEXlWs2_WEQr8ck6c0by6XenWr0SXKJdEJfAABfwCpU",
+		img: "JAP",
+		type: "JAP",
+		types: ["JAP"],
+	},
+	{
+		id: 202009,
+		name: "Joshis 2020 : TJP Sendai Girls SEAdLINNNG",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1WfiXuhuE96RZFb7Js0SSSK9n0EypCSEYY3Q2Frpvy_4",
+		img: "JOSHI",
+		type: "JAP",
+		types: ["JOSHI"],
+	},
+	{
+		id: 202010,
+		name: "Mex 2020 : CMLL LU AAA",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1LVyTqkv4A810zeRH_N1YM5oRsVWAbQktm6NyW-8l7hU",
+		img: "MEX",
+		type: "MEX",
+		types: ["MEX"],
+	},
+	{
+		id: 202011,
+		name: "NJPW 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1obdD1VVLoivY2t7DsQ8-tRsQN9EQpMLN_qSSmMWkZEw",
+		img: "NJPW",
+		type: "NJPW",
+		types: ["NJPW"],
+	},
+	{
+		id: 202013,
+		name: "PROGRESS 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/159uDQxpIyGhEnQSwr6zuVrGG89Bxl69t1NwXqQLvnUo",
+		img: "PROGRESS",
+		type: "EUROPE",
+		types: ["INDÉ", "PROGRESS"],
+	},
+	{
+		id: 202014,
+		name: "PWG 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1WMl8yH-lIfgoT35lUZQaDN3mFre4EkT5ZX1X69a04Lw",
+		img: "PWG",
+		type: "USA",
+		types: ["PWG"],
+	},
+	{
+		id: 202015,
+		name: "ROH 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1YYYKJnWM2CUCMDo_m1GI3VMQubogioAJ7xFaB58-nZg",
+		img: "ROH",
+		type: "USA",
+		types: ["ROH"],
+	},
+	{
+		id: 202016,
+		name: "STARDOM",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/13qPE1lTVf6Bjsd0qtAgrEA0EB4PsIeDeTBSkXbgMW7Y",
+		img: "JOSHI",
+		type: "JAP",
+		types: ["JOSHI"],
+	},
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2020/////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
-
+	{
+		id: 15,
+		name: "NXT 2020",
+		date: 2019,
+		driveLink: "https://docs.google.com/document/d/1yr2kdHtKlMEiWH6f3MasDtNczkDqiKTeEtz_h4xYWoQ",
+		img: "NXT",
+		type: "WWE NXT",
+		types: ["WWE", "NXT"],
+	},
 
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2019/////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
+	{
+		id: 20191,
+		name: "WWE Survivor Series 2019",
+		date: 2018,
+		driveLink: "https://docs.google.com/document/d/15cFxHyGylB-R39CFRJGWVLQ9tLMNciaf9Hgwx8vbfWw",
+		img: "WWESS",
+		type: "WWE PPV",
+		types: ["WWE", "PPV"],
+	},
 	{
 		id: 15,
 		name: "NXT 2019",
@@ -32,6 +182,15 @@ export const REVIEWS: Review[] = [
 		img: "NXTUKBP",
 		type: "WWE NXT",
 		types: ["WWE", "NXT UK"],
+	},
+	{
+		id: 16,
+		name: "NXT TakeOver : Wargames III",
+		date: 2019,
+		driveLink: "https://docs.google.com/document/d/1HJ-eqir92iXIIcsrdTLmeSk7JfBF7MFY-h0Bu_zyL4w",
+		img: "NXTWARGAMES",
+		type: "WWE NXT",
+		types: ["WWE", "NXT"],
 	},
 	{
 		id: 16,
@@ -322,7 +481,6 @@ export const REVIEWS: Review[] = [
 		type: "WWE PPV",
 		types: ["WWE", "PPV"],
 	},
-
 	{
 		id: 16,
 		name: "NXT TakeOver : Philadelphia",
@@ -582,6 +740,15 @@ export const REVIEWS: Review[] = [
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////LISTES ET BILANS////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
+	{
+		id: 11,
+		name: "4* 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1M8CET2QF0GTdoDItxuMeGItVPrECbS3OjdJrgTXiSac",
+		img: "4starslist",
+		type: "LISTE 4*+",
+		types: ["LISTE 4*+"],
+	},
 	{
 		id: 11,
 		name: "4* 2019",
