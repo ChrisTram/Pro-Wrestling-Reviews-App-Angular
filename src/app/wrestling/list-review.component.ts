@@ -37,18 +37,28 @@ export class ListReviewComponent {
       $('.collapsible').collapsible();
       $('.sidenav').sidenav();
       $('.fixed-action-btn').floatingActionButton();
+      if($(window).width() < 1250) {
+        $('#Maincontainer').addClass('s12');
+        $('#Maincontainer').removeClass('col s9');
+        $('#Maincontainer').removeClass('offset-s2');
+    }else{
+      $('#Maincontainer').addClass('col s9');
+      $('#Maincontainer').addClass('offset-s2');
+      $('#Maincontainer').removeClass('s12');
+    }
     });
     //changing col attributes depending of screen size (removing sidebar/fixedbutton in styles.css) 
     $(window).on('resize', function() {
       if($(window).width() < 1250) {
           $('#Maincontainer').addClass('s12');
-          $('#Maincontainer').removeClass('s9');
+          $('#Maincontainer').removeClass('col s9');
           $('#Maincontainer').removeClass('offset-s2');
       }else{
-        $('#Maincontainer').addClass('s9');
+        $('#Maincontainer').addClass('col s9');
         $('#Maincontainer').addClass('offset-s2');
         $('#Maincontainer').removeClass('s12');
       }
+      
   })
   if ($('#back-to-top').length) {
     var scrollTrigger = 100, // px

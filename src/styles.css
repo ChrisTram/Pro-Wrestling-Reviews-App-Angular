@@ -40,7 +40,7 @@
 }
 
 /*Sur PC*/
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1265px) {
   .container {
     width: 100%;
   }
@@ -54,7 +54,7 @@
 }
 
 /*Sur Téléphone ou minitel*/
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1265px) {
   #Sidepanel {
       display:none;
   }
