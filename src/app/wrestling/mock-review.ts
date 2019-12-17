@@ -166,6 +166,15 @@ export const REVIEWS: Review[] = [
 		types: ["WWE", "PPV"],
 	},
 	{
+		id: 20192,
+		name: "WWE TLC 2019",
+		date: 2019,
+		driveLink: "https://docs.google.com/document/d/1bvYAB_o9-0AH1f6BYJXB5jyEbvRh1QFdsCC1xHjU_zc",
+		img: "WWETLC",
+		type: "WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
 		id: 15,
 		name: "NXT 2019",
 		date: 2019,
