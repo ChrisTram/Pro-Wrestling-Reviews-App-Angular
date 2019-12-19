@@ -158,8 +158,17 @@ export const REVIEWS: Review[] = [
 	////////////////////////////////////////////////////////////////////////////////////////
 	{
 		id: 20191,
+		name: "WWE TLC 2019",
+		date: 2019,
+		driveLink: "https://docs.google.com/document/d/1bvYAB_o9-0AH1f6BYJXB5jyEbvRh1QFdsCC1xHjU_zc/edit?usp=drivesdk",
+		img: "WWETLC",
+		type: "WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id: 20191,
 		name: "WWE Survivor Series 2019",
-		date: 2018,
+		date: 2019,
 		driveLink: "https://docs.google.com/document/d/15cFxHyGylB-R39CFRJGWVLQ9tLMNciaf9Hgwx8vbfWw",
 		img: "WWESS",
 		type: "WWE PPV",
