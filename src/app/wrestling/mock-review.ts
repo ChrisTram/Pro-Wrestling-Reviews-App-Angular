@@ -795,6 +795,15 @@ export const REVIEWS: Review[] = [
 		types: ["LISTE 4*+"],
 	},
 	{
+		id: 4057,
+		name: "Bilan 2019",
+		date: 2019,
+		driveLink: "https://docs.google.com/document/d/10D7akDsrz15ZTWXsDIiaVInEfypaMrhx5LUcUkje0cE",
+		img: "WWEHOF",
+		type: "BILAN",
+		types: ["BILAN"],
+	},
+	{
 		id: 4056,
 		name: "Bilan 2018",
 		date: 2018,
