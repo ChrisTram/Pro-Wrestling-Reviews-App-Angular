@@ -65,6 +65,9 @@ export class ReviewTypeColorPipe implements PipeTransform {
       case 'EUROPE':
         color = "#00bfa5";
         break;
+      case 'STARDOM':
+        color = "#F70984";
+        break;
       default:
         color = '#e0f2f1';
         break;

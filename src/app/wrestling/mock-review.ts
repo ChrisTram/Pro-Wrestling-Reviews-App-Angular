@@ -82,7 +82,7 @@ export const REVIEWS: Review[] = [
 		name: "Joshis 2020 : TJP Sendai Girls SEAdLINNNG",
 		date: 2020,
 		driveLink: "https://docs.google.com/document/d/1WfiXuhuE96RZFb7Js0SSSK9n0EypCSEYY3Q2Frpvy_4",
-		img: "JOSHI",
+		img: "JOSHI2",
 		type: "JAP",
 		types: ["JOSHI"],
 	},
@@ -136,9 +136,9 @@ export const REVIEWS: Review[] = [
 		name: "STARDOM 2020",
 		date: 2020,
 		driveLink: "https://docs.google.com/document/d/13qPE1lTVf6Bjsd0qtAgrEA0EB4PsIeDeTBSkXbgMW7Y",
-		img: "JOSHI",
+		img: "STARDOM",
 		type: "JAP",
-		types: ["JOSHI"],
+		types: ["JOSHI", "STARDOM"],
 	},
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2020/////////////////////////////////////
@@ -151,7 +151,7 @@ export const REVIEWS: Review[] = [
 		img: "NXT",
 		type: "WWE NXT",
 		types: ["WWE", "NXT"],
-	},	{
+	}, {
 		id: 15,
 		name: "NXT TakeOver UK : Blackpool II",
 		date: 2020,
@@ -902,7 +902,7 @@ export const REVIEWS: Review[] = [
 		name: "Joshis 2019 : TJP Sendai Girls SEAdLINNNG",
 		date: 2019,
 		driveLink: "https://docs.google.com/document/d/1-ogR4LuVPyNZ0xNsx1BJ5Bp1ZgXUMekih0Oti1NPkTc",
-		img: "JOSHI",
+		img: "JOSHI2",
 		type: "JAP",
 		types: ["JOSHI"],
 	},
@@ -956,9 +956,9 @@ export const REVIEWS: Review[] = [
 		name: "STARDOM 2019",
 		date: 2019,
 		driveLink: "https://docs.google.com/document/d/1KRTEwHgXEogEqlRa0812gBvLfc1uBG824xYbs-zueuw",
-		img: "JOSHI",
+		img: "STARDOM",
 		type: "JAP",
-		types: ["JOSHI"],
+		types: ["JOSHI", "STARDOM"],
 	},
 	{
 		id: 6,
