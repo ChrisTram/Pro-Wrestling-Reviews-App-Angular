@@ -143,6 +143,25 @@ export const REVIEWS: Review[] = [
 	////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////WWE 2020/////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		id: 14,
+		name: "WWE Super Show Down 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1Jv0HEb0UxXnhnVyu59O5UM57e5O2ka2zvxR0xYwBsTs/edit",
+		img: "WWESSD2",
+		type: "WWE PPV",
+		types: ["WWE", "PPV"],
+	},
+	{
+		id: 16,
+		name: "WWE Royal Rumble 2020",
+		date: 2020,
+		driveLink: "https://docs.google.com/document/d/1CMuqjL_I7116RjejGRpgFRxhXH067Cgn7A4qIwjOT_s/edit",
+		img: "WWERR",
+		type: "WWE PPV",
+		types: ["WWE", "PPV"],
+	},
 	{
 		id: 15,
 		name: "NXT 2020",
@@ -895,7 +914,7 @@ export const REVIEWS: Review[] = [
 		driveLink: "https://docs.google.com/document/d/1XXuYAJsd7D82EMMVJkDpN5RNaRYiQohiKmqCraLYRIc",
 		img: "NJC2019",
 		type: "NJPW",
-		types: ["NJPW"],
+		types: ["NJPW", "NJC"],
 	},
 	{
 		id: 8,

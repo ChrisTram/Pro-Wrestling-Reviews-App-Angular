@@ -15,6 +15,7 @@ export class ReviewTypeColorPipe implements PipeTransform {
         break;
       case 'BOSJ':
       case 'G1':
+      case 'NJC':
         color = '#FFD810';
         break;
       case 'AEW':
